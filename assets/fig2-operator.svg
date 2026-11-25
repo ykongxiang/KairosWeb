@@ -1,0 +1,660 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="92.9426mm" height="117.6147mm" viewBox="81.0000 5.0000 92.9426 117.6147" version="1.1">
+ <defs id="Fig2_defs">
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  </defs>
+ <g id="Fig2_b" transform="matrix(1 0 0 1 0.524590136 0.991409834)">
+  <g id="Fig2b_figure_1">
+   <g id="Fig2b_Fig2_b" transform="translate(0.000000 -1.016000) scale(0.0717213115)">
+    <rect id="Fig2b_F2_pb-container" x="1136.0" y="84.0" width="1268.0" height="1612" fill="url(#Fig2b_F2_core-panel)" stroke="#B8C5D6" stroke-width="2.2" rx="24" style="fill:#f9f9f9" />
+    <circle id="Fig2b_F2_pb-s1-c" cx="1242.0" cy="132.0" r="18.0" fill="#152033" stroke="#152033" stroke-width="1" />
+    <text id="Fig2b_F2_pb-s1-n" x="1234.91" y="141.00" font-weight="700" fill="#FFFFFF" style="font-size: 27.151391px; font-weight: 700; font-family: Arial; fill: #FFFFFF">1</text>
+    <text id="Fig2b_F2_pb-s1-t" x="1270" y="141" font-weight="700" fill="#152033" style="font-size: 28.000019px; font-weight: 700; font-family: Arial; fill: #152033">Inputs</text>
+    <rect id="Fig2b_F2_pb-in-expr" x="1222.0" y="164.0" width="412.0" height="302" fill="url(#Fig2b_F2_green-panel)" stroke="#3C9B57" stroke-width="2" rx="18" />
+    <g id="Fig2b_F2_pb-in-expr-t" transform="translate(1244.000 206.000) scale(1.005607) translate(-1244.000 -206.000)">
+     <text id="Fig2b_F2_pb-in-expr-t-r0" x="1244.00" y="206.00" font-weight="700" fill="#176535" style="font-size: 27.000002px; font-weight: 700; font-family: Arial; fill: #176535">Expression</text>
+     <text id="Fig2b_F2_pb-in-expr-t-r1" x="1400.03" y="206.00" font-weight="700" fill="#176535" font-style="italic" style="font-size: 27.000002px; font-weight: 700; font-family: Arial; fill: #176535">x</text>
+     <text id="Fig2b_F2_pb-in-expr-t-r2" x="1416.26" y="211.94" font-weight="700" fill="#176535" font-style="italic" data-role="math-script" style="font-size: 26.926583px; font-weight: 700; font-family: Arial; fill: #176535">i</text>
+    </g>
+    <g id="Fig2b_F2_pb-dyn-expression">
+     <rect id="Fig2b_F2_pb-expression-scalar" x="1242" y="325" width="58" height="46" rx="8" fill="#DFF0DF" stroke="#3C9B57" stroke-width="1.7" />
+     <path id="Fig2b_F2_pb-encoder-entry-shaft" d="M 1300,348 L 1326,348" fill="none" stroke="#176535" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" />
+     <polygon id="Fig2b_F2_pb-encoder-entry-head" points="1336,348 1326,343 1326,353" fill="#176535" />
+     <g id="Fig2b_F2_pb-expression-scalar-runs" transform="translate(1260.850 356.000) scale(1.005607) translate(-1260.850 -356.000)">
+      <text id="Fig2b_F2_pb-expression-scalar-runs-r0" x="1260.85" y="356.00" font-weight="700" fill="#176535" font-style="italic" style="font-size: 27.000002px; font-weight: 700; font-family: Arial; fill: #176535">x</text>
+      <text id="Fig2b_F2_pb-expression-scalar-runs-r1" x="1275.87" y="362.00" font-weight="700" fill="#176535" font-style="italic" data-role="math-script" style="font-size: 26.926583px; font-weight: 700; font-family: Arial; fill: #176535">i</text>
+     </g>
+     <g id="Fig2b_F2_pb-expr-mini-mlp">
+      <text id="Fig2b_F2_pb-encoder-title" x="1384" y="266" font-weight="700" fill="#176535" text-anchor="middle" style="font-size: 27.151391px; font-weight: 700; text-anchor: middle; font-family: Arial; fill: #176535">Gene-specific MLP</text>
+      <g id="Fig2b_F2_pb-expr-mini-mlp-web" opacity="0.52">
+       <line x1="1348.0" y1="348.0" x2="1398.0" y2="312.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1348.0" y1="348.0" x2="1398.0" y2="348.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1348.0" y1="348.0" x2="1398.0" y2="384.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1398.0" y1="312.0" x2="1448.0" y2="297.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1398.0" y1="312.0" x2="1448.0" y2="331.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1398.0" y1="312.0" x2="1448.0" y2="365.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1398.0" y1="312.0" x2="1448.0" y2="399.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1398.0" y1="348.0" x2="1448.0" y2="297.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1398.0" y1="348.0" x2="1448.0" y2="331.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1398.0" y1="348.0" x2="1448.0" y2="365.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1398.0" y1="348.0" x2="1448.0" y2="399.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1398.0" y1="384.0" x2="1448.0" y2="297.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1398.0" y1="384.0" x2="1448.0" y2="331.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1398.0" y1="384.0" x2="1448.0" y2="365.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+       <line x1="1398.0" y1="384.0" x2="1448.0" y2="399.0" stroke="#3C9B57" stroke-width="1.55" stroke-linecap="round" />
+      </g>
+      <circle id="Fig2b_F2_pb-expr-mlp-n-0-0" cx="1348.0" cy="348.0" r="6.8" fill="#DFF3E3" stroke="#176535" stroke-width="1.75" />
+      <circle id="Fig2b_F2_pb-expr-mlp-n-1-0" cx="1398.0" cy="312.0" r="6.8" fill="#DFF3E3" stroke="#176535" stroke-width="1.75" />
+      <circle id="Fig2b_F2_pb-expr-mlp-n-1-1" cx="1398.0" cy="348.0" r="6.8" fill="#DFF3E3" stroke="#176535" stroke-width="1.75" />
+      <circle id="Fig2b_F2_pb-expr-mlp-n-1-2" cx="1398.0" cy="384.0" r="6.8" fill="#DFF3E3" stroke="#176535" stroke-width="1.75" />
+      <circle id="Fig2b_F2_pb-expr-mlp-n-2-0" cx="1448.0" cy="297.0" r="6.8" fill="#DFF3E3" stroke="#176535" stroke-width="1.75" />
+      <circle id="Fig2b_F2_pb-expr-mlp-n-2-1" cx="1448.0" cy="331.0" r="6.8" fill="#DFF3E3" stroke="#176535" stroke-width="1.75" />
+      <circle id="Fig2b_F2_pb-expr-mlp-n-2-2" cx="1448.0" cy="365.0" r="6.8" fill="#DFF3E3" stroke="#176535" stroke-width="1.75" />
+      <circle id="Fig2b_F2_pb-expr-mlp-n-2-3" cx="1448.0" cy="399.0" r="6.8" fill="#DFF3E3" stroke="#176535" stroke-width="1.75" />
+     </g>
+     <g id="Fig2b_F2_pb-expr-vec-label" transform="translate(1539.200 268.000) scale(1.180495) translate(-1539.200 -268.000)">
+      <text id="Fig2b_F2_pb-expr-vec-label-r0" x="1539.20" y="268.00" font-weight="700" fill="#176535" font-style="italic" style="font-size: 23.000005px; font-weight: 700; font-family: Arial; fill: #176535">φ</text>
+      <text id="Fig2b_F2_pb-expr-vec-label-r1" x="1553.25" y="273.00" font-weight="700" fill="#176535" font-style="italic" data-role="math-script" style="font-size: 22.937463px; font-weight: 700; font-family: Arial; fill: #176535">i</text>
+      <text id="Fig2b_F2_pb-expr-vec-label-r2" x="1559.620" y="268.00" font-weight="700" fill="#176535" style="font-size: 23.000005px; font-weight: 700; font-family: Arial; fill: #176535">(</text>
+      <text id="Fig2b_F2_pb-expr-vec-label-r3" x="1567.270" y="268.00" font-weight="700" fill="#176535" font-style="italic" style="font-size: 23.000005px; font-weight: 700; font-family: Arial; fill: #176535">x</text>
+      <text id="Fig2b_F2_pb-expr-vec-label-r4" x="1580.070" y="273.00" font-weight="700" fill="#176535" font-style="italic" data-role="math-script" style="font-size: 22.937463px; font-weight: 700; font-family: Arial; fill: #176535">i</text>
+      <text id="Fig2b_F2_pb-expr-vec-label-r5" x="1586.440" y="268.00" font-weight="700" fill="#176535" style="font-size: 23.000005px; font-weight: 700; font-family: Arial; fill: #176535">)</text>
+     </g>
+     <path id="Fig2b_F2_pb-encoder-to-strips-shaft" d="M 1460,348 L 1502,348" fill="none" stroke="#176535" stroke-width="2.5" stroke-linecap="round" />
+     <polygon id="Fig2b_F2_pb-encoder-to-strips-head" points="1512,348 1502,343 1502,353" fill="#176535" />
+     <g id="Fig2b_F2_pb-expr-st-0">
+      <rect id="Fig2b_F2_pb-expr-st-0-0" x="1520.0" y="302.0" width="30.0" height="24.0" fill="#DFF3E3" stroke="#58AD6E" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-expr-st-0-s-0" x="1521.8" y="303.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-expr-st-0-1" x="1550.0" y="302.0" width="30.0" height="24.0" fill="#BFDFC0" stroke="#3C9B57" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-expr-st-0-s-1" x="1551.8" y="303.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-expr-st-0-2" x="1580.0" y="302.0" width="30.0" height="24.0" fill="#98CCA0" stroke="#2D8648" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-expr-st-0-s-2" x="1581.8" y="303.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+     </g>
+     <g id="Fig2b_F2_pb-expr-st-1">
+      <rect id="Fig2b_F2_pb-expr-st-1-0" x="1520.0" y="336.0" width="30.0" height="24.0" fill="#DFF3E3" stroke="#58AD6E" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-expr-st-1-s-0" x="1521.8" y="337.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-expr-st-1-1" x="1550.0" y="336.0" width="30.0" height="24.0" fill="#BFDFC0" stroke="#3C9B57" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-expr-st-1-s-1" x="1551.8" y="337.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-expr-st-1-2" x="1580.0" y="336.0" width="30.0" height="24.0" fill="#98CCA0" stroke="#2D8648" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-expr-st-1-s-2" x="1581.8" y="337.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+     </g>
+     <g id="Fig2b_F2_pb-expr-st-2">
+      <rect id="Fig2b_F2_pb-expr-st-2-0" x="1520.0" y="370.0" width="30.0" height="24.0" fill="#DFF3E3" stroke="#58AD6E" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-expr-st-2-s-0" x="1521.8" y="371.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-expr-st-2-1" x="1550.0" y="370.0" width="30.0" height="24.0" fill="#BFDFC0" stroke="#3C9B57" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-expr-st-2-s-1" x="1551.8" y="371.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-expr-st-2-2" x="1580.0" y="370.0" width="30.0" height="24.0" fill="#98CCA0" stroke="#2D8648" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-expr-st-2-s-2" x="1581.8" y="371.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+     </g>
+    </g>
+    <rect id="Fig2b_F2_pb-in-id" x="1650.0" y="164.0" width="336.0" height="302" fill="url(#Fig2b_F2_blue-panel)" stroke="#3B8FCB" stroke-width="2" rx="18" />
+    <g id="Fig2b_F2_pb-in-id-t" transform="translate(68,0) translate(1596.000 206.000) scale(1.005607) translate(-1596.000 -206.000)">
+     <text id="Fig2b_F2_pb-in-id-t-r0" x="1596.00" y="206.00" font-weight="700" fill="#124B9D" style="font-size: 27.000002px; font-weight: 700; font-family: Arial; fill: #124B9D">Identity</text>
+     <text id="Fig2b_F2_pb-in-id-t-r1" x="1702.47" y="206.00" font-weight="700" fill="#124B9D" font-style="italic" style="font-size: 27.000002px; font-weight: 700; font-family: Arial; fill: #124B9D">e</text>
+     <text id="Fig2b_F2_pb-in-id-t-r2" x="1718.71" y="211.94" font-weight="700" fill="#124B9D" font-style="italic" data-role="math-script" style="font-size: 26.926583px; font-weight: 700; font-family: Arial; fill: #124B9D">i</text>
+    </g>
+    <path id="Fig2b_F2_pb-co-e-0-1" d="M 1630.0,308.0 L 1674.0,288.0" fill="none" stroke="#6D93BE" stroke-width="2" stroke-linecap="round" transform="translate(61,6)" />
+    <path id="Fig2b_F2_pb-co-e-1-2" d="M 1674.0,288.0 L 1716.0,310.0" fill="none" stroke="#6D93BE" stroke-width="2" stroke-linecap="round" transform="translate(61,6)" />
+    <path id="Fig2b_F2_pb-co-e-0-3" d="M 1630.0,308.0 L 1636.0,360.0" fill="none" stroke="#6D93BE" stroke-width="2" stroke-linecap="round" transform="translate(61,6)" />
+    <path id="Fig2b_F2_pb-co-e-1-4" d="M 1674.0,288.0 L 1680.0,372.0" fill="none" stroke="#6D93BE" stroke-width="2" stroke-linecap="round" transform="translate(61,6)" />
+    <path id="Fig2b_F2_pb-co-e-2-5" d="M 1716.0,310.0 L 1718.0,354.0" fill="none" stroke="#6D93BE" stroke-width="2" stroke-linecap="round" transform="translate(61,6)" />
+    <path id="Fig2b_F2_pb-co-e-3-4" d="M 1636.0,360.0 L 1680.0,372.0" fill="none" stroke="#6D93BE" stroke-width="2" stroke-linecap="round" transform="translate(61,6)" />
+    <path id="Fig2b_F2_pb-co-e-4-5" d="M 1680.0,372.0 L 1718.0,354.0" fill="none" stroke="#6D93BE" stroke-width="2" stroke-linecap="round" transform="translate(61,6)" />
+    <path id="Fig2b_F2_pb-co-e-1-3" d="M 1674.0,288.0 L 1636.0,360.0" fill="none" stroke="#6D93BE" stroke-width="2" stroke-linecap="round" transform="translate(61,6)" />
+    <circle id="Fig2b_F2_pb-co-n-0" cx="1630.0" cy="308.0" r="10.5" fill="url(#Fig2b_F2_node-blue)" stroke="#124B9D" stroke-width="1.7" transform="translate(61,6)" />
+    <circle id="Fig2b_F2_pb-co-n-1" cx="1674.0" cy="288.0" r="10.5" fill="url(#Fig2b_F2_node-blue)" stroke="#124B9D" stroke-width="1.7" transform="translate(61,6)" />
+    <circle id="Fig2b_F2_pb-co-n-2" cx="1716.0" cy="310.0" r="10.5" fill="url(#Fig2b_F2_node-blue)" stroke="#124B9D" stroke-width="1.7" transform="translate(61,6)" />
+    <circle id="Fig2b_F2_pb-co-n-3" cx="1636.0" cy="360.0" r="10.5" fill="url(#Fig2b_F2_node-blue)" stroke="#124B9D" stroke-width="1.7" transform="translate(61,6)" />
+    <circle id="Fig2b_F2_pb-co-n-4" cx="1680.0" cy="372.0" r="10.5" fill="url(#Fig2b_F2_node-blue)" stroke="#124B9D" stroke-width="1.7" transform="translate(61,6)" />
+    <circle id="Fig2b_F2_pb-co-n-5" cx="1718.0" cy="354.0" r="10.5" fill="url(#Fig2b_F2_node-blue)" stroke="#124B9D" stroke-width="1.7" transform="translate(61,6)" />
+    <g id="Fig2b_F2_pb-co-arr" transform="translate(61,6)">
+     <path id="Fig2b_F2_pb-co-arr-s" d="M 1738.0,336.0 L 1782.1,336.0" fill="none" stroke="#124B9D" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+     <polygon id="Fig2b_F2_pb-co-arr-h" points="1790.0,336.0 1779.0,341.1 1779.0,330.9" fill="#124B9D" />
+    </g>
+    <g id="Fig2b_F2_pb-id-st-0" transform="translate(61,6)">
+     <rect id="Fig2b_F2_pb-id-st-0-0" x="1804.0" y="296.0" width="30.0" height="24.0" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-id-st-0-s-0" x="1805.8" y="297.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-id-st-0-1" x="1834.0" y="296.0" width="30.0" height="24.0" fill="#BDCEE9" stroke="#668EC0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-id-st-0-s-1" x="1835.8" y="297.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-id-st-0-2" x="1864.0" y="296.0" width="30.0" height="24.0" fill="#A8B9D6" stroke="#6680B0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-id-st-0-s-2" x="1865.8" y="297.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+    </g>
+    <g id="Fig2b_F2_pb-id-st-1" transform="translate(61,6)">
+     <rect id="Fig2b_F2_pb-id-st-1-0" x="1804.0" y="330.0" width="30.0" height="24.0" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-id-st-1-s-0" x="1805.8" y="331.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-id-st-1-1" x="1834.0" y="330.0" width="30.0" height="24.0" fill="#BDCEE9" stroke="#668EC0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-id-st-1-s-1" x="1835.8" y="331.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-id-st-1-2" x="1864.0" y="330.0" width="30.0" height="24.0" fill="#A8B9D6" stroke="#6680B0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-id-st-1-s-2" x="1865.8" y="331.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+    </g>
+    <g id="Fig2b_F2_pb-id-st-2" transform="translate(61,6)">
+     <rect id="Fig2b_F2_pb-id-st-2-0" x="1804.0" y="364.0" width="30.0" height="24.0" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-id-st-2-s-0" x="1805.8" y="365.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-id-st-2-1" x="1834.0" y="364.0" width="30.0" height="24.0" fill="#BDCEE9" stroke="#668EC0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-id-st-2-s-1" x="1835.8" y="365.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-id-st-2-2" x="1864.0" y="364.0" width="30.0" height="24.0" fill="#A8B9D6" stroke="#6680B0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-id-st-2-s-2" x="1865.8" y="365.8" width="3.8" height="20.4" fill="#FFFFFF" opacity="0.38" />
+    </g>
+    <rect id="Fig2b_F2_pb-in-pert" x="2002.0" y="164.0" width="374.0" height="302" fill="url(#Fig2b_F2_red-panel)" stroke="#D95A67" stroke-width="2" rx="18" />
+    <g id="Fig2b_F2_pb-in-pert-t" transform="translate(38,0) translate(1982.000 206.000) scale(1.005607) translate(-1982.000 -206.000)">
+     <text id="Fig2b_F2_pb-in-pert-t-r0" x="1982.00" y="206.00" font-weight="700" fill="#B83246" style="font-size: 27.000002px; font-weight: 700; font-family: Arial; fill: #B83246">Perturbation</text>
+     <text id="Fig2b_F2_pb-in-pert-t-r1" x="2152.98" y="206.00" font-weight="700" fill="#B83246" font-style="italic" style="font-size: 27.000002px; font-weight: 700; font-family: Arial; fill: #B83246">p</text>
+     <text id="Fig2b_F2_pb-in-pert-t-r2" x="2170.69" y="211.94" font-weight="700" fill="#B83246" font-style="italic" data-role="math-script" style="font-size: 26.926583px; font-weight: 700; font-family: Arial; fill: #B83246">i</text>
+    </g>
+    <polygon id="Fig2b_F2_pb-chem-hex" points="2030.2,318.5 2012.0,329.0 1993.8,318.5 1993.8,297.5 2012.0,287.0 2030.2,297.5" fill="#FFFFFF" stroke="#B83246" stroke-width="2.2" transform="translate(34,6)" />
+    <circle id="Fig2b_F2_pb-chem-ring" cx="2012.0" cy="308.0" r="10.5" fill="none" stroke="#D95A67" stroke-width="1.6" transform="translate(34,6)" />
+    <g id="Fig2b_F2_pb-chem-f-0" transform="translate(34,6)">
+     <path id="Fig2b_F2_pb-chem-f-0-s" d="M 2040.0,308.0 L 2097.2,288.6" fill="none" stroke="#B83246" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" />
+     <polygon id="Fig2b_F2_pb-chem-f-0-h" points="2102.0,287.0 2096.4,292.3 2094.3,286.2" fill="#B83246" />
+    </g>
+    <g id="Fig2b_F2_pb-chem-b-0" transform="translate(34,6)">
+     <rect id="Fig2b_F2_pb-chem-b-0-0" x="2110.0" y="278.0" width="23.0" height="18.0" fill="#FFE3E4" stroke="#E58A92" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-chem-b-0-s-0" x="2111.8" y="279.8" width="3.8" height="14.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-chem-b-0-1" x="2133.0" y="278.0" width="23.0" height="18.0" fill="#FFC5C5" stroke="#E16C77" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-chem-b-0-s-1" x="2134.8" y="279.8" width="3.8" height="14.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-chem-b-0-2" x="2156.0" y="278.0" width="23.0" height="18.0" fill="#FFA9AE" stroke="#D95A67" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-chem-b-0-s-2" x="2157.8" y="279.8" width="3.8" height="14.4" fill="#FFFFFF" opacity="0.38" />
+    </g>
+    <g id="Fig2b_F2_pb-chem-f-1" transform="translate(34,6)">
+     <path id="Fig2b_F2_pb-chem-f-1-s" d="M 2040.0,308.0 L 2097.0,310.8" fill="none" stroke="#B83246" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" />
+     <polygon id="Fig2b_F2_pb-chem-f-1-h" points="2102.0,311.0 2094.9,313.9 2095.2,307.4" fill="#B83246" />
+    </g>
+    <g id="Fig2b_F2_pb-chem-b-1" transform="translate(34,6)">
+     <rect id="Fig2b_F2_pb-chem-b-1-0" x="2110.0" y="302.0" width="23.0" height="18.0" fill="#FFE3E4" stroke="#E58A92" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-chem-b-1-s-0" x="2111.8" y="303.8" width="3.8" height="14.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-chem-b-1-1" x="2133.0" y="302.0" width="23.0" height="18.0" fill="#FFC5C5" stroke="#E16C77" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-chem-b-1-s-1" x="2134.8" y="303.8" width="3.8" height="14.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-chem-b-1-2" x="2156.0" y="302.0" width="23.0" height="18.0" fill="#FFA9AE" stroke="#D95A67" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-chem-b-1-s-2" x="2157.8" y="303.8" width="3.8" height="14.4" fill="#FFFFFF" opacity="0.38" />
+    </g>
+    <g id="Fig2b_F2_pb-chem-f-2" transform="translate(34,6)">
+     <path id="Fig2b_F2_pb-chem-f-2-s" d="M 2040.0,308.0 L 2097.4,333.0" fill="none" stroke="#B83246" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" />
+     <polygon id="Fig2b_F2_pb-chem-f-2-h" points="2102.0,335.0 2094.3,335.2 2096.9,329.3" fill="#B83246" />
+    </g>
+    <g id="Fig2b_F2_pb-chem-b-2" transform="translate(34,6)">
+     <rect id="Fig2b_F2_pb-chem-b-2-0" x="2110.0" y="326.0" width="23.0" height="18.0" fill="#FFE3E4" stroke="#E58A92" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-chem-b-2-s-0" x="2111.8" y="327.8" width="3.8" height="14.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-chem-b-2-1" x="2133.0" y="326.0" width="23.0" height="18.0" fill="#FFC5C5" stroke="#E16C77" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-chem-b-2-s-1" x="2134.8" y="327.8" width="3.8" height="14.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-chem-b-2-2" x="2156.0" y="326.0" width="23.0" height="18.0" fill="#FFA9AE" stroke="#D95A67" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-chem-b-2-s-2" x="2157.8" y="327.8" width="3.8" height="14.4" fill="#FFFFFF" opacity="0.38" />
+    </g>
+    <text id="Fig2b_F2_pb-chem-all" x="2192.00" y="316.00" font-weight="400" fill="#152033" transform="translate(34,6)" style="font-size: 27.151391px; font-weight: 400; font-family: Arial; fill: #152033">all genes</text>
+    <g id="Fig2b_F2_pb-ko-bolt-wrap" transform="translate(34,6) translate(1844.50,49.47) scale(0.7600)">
+     <path id="Fig2b_F2_pb-ko-bolt-input-perturbation-lightning" d="M 206,429 l 6.56,-3.28 l 7.38,19.68 l 4.92,-4.92 l 9.84,30.34 l -13.94,-18.04 l -5.739999999999999,6.56 Z" fill="#D94859" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    <g id="Fig2b_F2_pb-ko-arr" transform="translate(34,6)">
+     <path id="Fig2b_F2_pb-ko-arr-s" d="M 2040.0,394.0 L 2096.2,394.0" fill="none" stroke="#B83246" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+     <polygon id="Fig2b_F2_pb-ko-arr-h" points="2102.0,394.0 2094.0,397.7 2094.0,390.3" fill="#B83246" />
+    </g>
+    <g id="Fig2b_F2_pb-ko-b-0" transform="translate(34,6)">
+     <rect id="Fig2b_F2_pb-ko-b-0-0" x="2110.0" y="362.0" width="23.0" height="18.0" fill="#F1F4F8" stroke="#B4C0CE" stroke-width="1.35" stroke-dasharray="4 3" />
+     <rect id="Fig2b_F2_pb-ko-b-0-1" x="2133.0" y="362.0" width="23.0" height="18.0" fill="#F1F4F8" stroke="#B4C0CE" stroke-width="1.35" stroke-dasharray="4 3" />
+     <rect id="Fig2b_F2_pb-ko-b-0-2" x="2156.0" y="362.0" width="23.0" height="18.0" fill="#F1F4F8" stroke="#B4C0CE" stroke-width="1.35" stroke-dasharray="4 3" />
+    </g>
+    <g id="Fig2b_F2_pb-ko-b-1" transform="translate(34,6)">
+     <rect id="Fig2b_F2_pb-ko-b-1-0" x="2110.0" y="386.0" width="23.0" height="18.0" fill="#FFE3E4" stroke="#E58A92" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-ko-b-1-s-0" x="2111.8" y="387.8" width="3.8" height="14.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-ko-b-1-1" x="2133.0" y="386.0" width="23.0" height="18.0" fill="#FFC5C5" stroke="#E16C77" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-ko-b-1-s-1" x="2134.8" y="387.8" width="3.8" height="14.4" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-ko-b-1-2" x="2156.0" y="386.0" width="23.0" height="18.0" fill="#FFA9AE" stroke="#D95A67" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-ko-b-1-s-2" x="2157.8" y="387.8" width="3.8" height="14.4" fill="#FFFFFF" opacity="0.38" />
+    </g>
+    <g id="Fig2b_F2_pb-ko-b-2" transform="translate(34,6)">
+     <rect id="Fig2b_F2_pb-ko-b-2-0" x="2110.0" y="410.0" width="23.0" height="18.0" fill="#F1F4F8" stroke="#B4C0CE" stroke-width="1.35" stroke-dasharray="4 3" />
+     <rect id="Fig2b_F2_pb-ko-b-2-1" x="2133.0" y="410.0" width="23.0" height="18.0" fill="#F1F4F8" stroke="#B4C0CE" stroke-width="1.35" stroke-dasharray="4 3" />
+     <rect id="Fig2b_F2_pb-ko-b-2-2" x="2156.0" y="410.0" width="23.0" height="18.0" fill="#F1F4F8" stroke="#B4C0CE" stroke-width="1.35" stroke-dasharray="4 3" />
+    </g>
+    <text id="Fig2b_F2_pb-ko-tgt" x="2192" y="402" font-size="27.1514" font-weight="400" fill="#152033" transform="translate(34,6)" style="font-size: 27.1514; font-weight: 400; font-family: Arial; fill: #152033">
+     <tspan id="Fig2b_F2_tspan2088" x="2192" y="402" style="font-family: Arial; font-size: 27.151391px">target</tspan>
+    </text>
+    <rect id="Fig2b_F2_pb-tok-card" x="1222.0" y="502" width="1154.0" height="216" fill="#FFFFFF" stroke="#C7D2DF" stroke-width="1.8" rx="18" />
+    <g id="Fig2b_F2_pb-tok-g-0" transform="translate(0,-4) translate(1573.670 558.000) scale(1.044284) translate(-1573.670 -558.000)">
+     <text id="Fig2b_F2_pb-tok-g-0-r0" x="1573.67" y="558.00" font-weight="400" fill="#152033" font-style="italic" style="font-size: 26.000007px; font-weight: 400; font-family: Arial; fill: #152033">g</text>
+     <text id="Fig2b_F2_pb-tok-g-0-r1" x="1589.30" y="563.72" font-weight="400" fill="#152033" data-role="math-script" style="font-size: 26.000007px; font-weight: 400; font-family: Arial; fill: #152033">1</text>
+    </g>
+    <g id="Fig2b_F2_pb-tok-row-0" transform="translate(0,-4)">
+     <rect id="Fig2b_F2_pb-tok-row-0-c-0" x="1614.0" y="536.0" width="40.0" height="30.0" fill="#DFF3E3" stroke="#58AD6E" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-0-sh-0" x="1616.0" y="538.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-0-c-1" x="1654.0" y="536.0" width="40.0" height="30.0" fill="#BFDFC0" stroke="#3C9B57" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-0-sh-1" x="1656.0" y="538.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-0-c-2" x="1694.0" y="536.0" width="40.0" height="30.0" fill="#98CCA0" stroke="#2D8648" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-0-sh-2" x="1696.0" y="538.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-0-c-3" x="1734.0" y="536.0" width="40.0" height="30.0" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-0-sh-3" x="1736.0" y="538.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-0-c-4" x="1774.0" y="536.0" width="40.0" height="30.0" fill="#BDCEE9" stroke="#668EC0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-0-sh-4" x="1776.0" y="538.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-0-c-5" x="1814.0" y="536.0" width="40.0" height="30.0" fill="#A8B9D6" stroke="#6680B0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-0-sh-5" x="1816.0" y="538.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-0-c-6" x="1854.0" y="536.0" width="40.0" height="30.0" fill="#FFE3E4" stroke="#E58A92" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-0-sh-6" x="1856.0" y="538.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-0-c-7" x="1894.0" y="536.0" width="40.0" height="30.0" fill="#FFC5C5" stroke="#E16C77" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-0-sh-7" x="1896.0" y="538.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-0-c-8" x="1934.0" y="536.0" width="40.0" height="30.0" fill="#FFA9AE" stroke="#D95A67" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-0-sh-8" x="1936.0" y="538.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+    </g>
+    <g id="Fig2b_F2_pb-tok-g-1" transform="translate(0,-4) translate(1573.670 596.000) scale(1.044284) translate(-1573.670 -596.000)">
+     <text id="Fig2b_F2_pb-tok-g-1-r0" x="1573.67" y="596.00" font-weight="400" fill="#152033" font-style="italic" style="font-size: 26.000007px; font-weight: 400; font-family: Arial; fill: #152033">g</text>
+     <text id="Fig2b_F2_pb-tok-g-1-r1" x="1589.30" y="601.72" font-weight="400" fill="#152033" data-role="math-script" style="font-size: 25.929402px; font-weight: 400; font-family: Arial; fill: #152033">2</text>
+    </g>
+    <g id="Fig2b_F2_pb-tok-row-1" transform="translate(0,-4)">
+     <rect id="Fig2b_F2_pb-tok-row-1-c-0" x="1614.0" y="574.0" width="40.0" height="30.0" fill="#DFF3E3" stroke="#58AD6E" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-1-sh-0" x="1616.0" y="576.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-1-c-1" x="1654.0" y="574.0" width="40.0" height="30.0" fill="#BFDFC0" stroke="#3C9B57" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-1-sh-1" x="1656.0" y="576.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-1-c-2" x="1694.0" y="574.0" width="40.0" height="30.0" fill="#98CCA0" stroke="#2D8648" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-1-sh-2" x="1696.0" y="576.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-1-c-3" x="1734.0" y="574.0" width="40.0" height="30.0" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-1-sh-3" x="1736.0" y="576.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-1-c-4" x="1774.0" y="574.0" width="40.0" height="30.0" fill="#BDCEE9" stroke="#668EC0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-1-sh-4" x="1776.0" y="576.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-1-c-5" x="1814.0" y="574.0" width="40.0" height="30.0" fill="#A8B9D6" stroke="#6680B0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-1-sh-5" x="1816.0" y="576.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-1-c-6" x="1854.0" y="574.0" width="40.0" height="30.0" fill="#FFE3E4" stroke="#E58A92" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-1-sh-6" x="1856.0" y="576.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-1-c-7" x="1894.0" y="574.0" width="40.0" height="30.0" fill="#FFC5C5" stroke="#E16C77" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-1-sh-7" x="1896.0" y="576.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-1-c-8" x="1934.0" y="574.0" width="40.0" height="30.0" fill="#FFA9AE" stroke="#D95A67" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-1-sh-8" x="1936.0" y="576.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+    </g>
+    <g id="Fig2b_F2_pb-tok-g-2" transform="translate(0,-4) translate(1573.670 634.000) scale(1.044284) translate(-1573.670 -634.000)">
+     <text id="Fig2b_F2_pb-tok-g-2-r0" x="1573.67" y="634.00" font-weight="400" fill="#152033" font-style="italic" style="font-size: 26.000007px; font-weight: 400; font-family: Arial; fill: #152033">g</text>
+     <text id="Fig2b_F2_pb-tok-g-2-r1" x="1589.30" y="639.72" font-weight="400" fill="#152033" data-role="math-script" style="font-size: 25.929402px; font-weight: 400; font-family: Arial; fill: #152033">3</text>
+    </g>
+    <g id="Fig2b_F2_pb-tok-row-2" transform="translate(0,-4)">
+     <rect id="Fig2b_F2_pb-tok-row-2-c-0" x="1614.0" y="612.0" width="40.0" height="30.0" fill="#DFF3E3" stroke="#58AD6E" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-2-sh-0" x="1616.0" y="614.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-2-c-1" x="1654.0" y="612.0" width="40.0" height="30.0" fill="#BFDFC0" stroke="#3C9B57" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-2-sh-1" x="1656.0" y="614.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-2-c-2" x="1694.0" y="612.0" width="40.0" height="30.0" fill="#98CCA0" stroke="#2D8648" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-2-sh-2" x="1696.0" y="614.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-2-c-3" x="1734.0" y="612.0" width="40.0" height="30.0" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-2-sh-3" x="1736.0" y="614.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-2-c-4" x="1774.0" y="612.0" width="40.0" height="30.0" fill="#BDCEE9" stroke="#668EC0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-2-sh-4" x="1776.0" y="614.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-2-c-5" x="1814.0" y="612.0" width="40.0" height="30.0" fill="#A8B9D6" stroke="#6680B0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-2-sh-5" x="1816.0" y="614.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-2-c-6" x="1854.0" y="612.0" width="40.0" height="30.0" fill="#FFE3E4" stroke="#E58A92" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-2-sh-6" x="1856.0" y="614.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-2-c-7" x="1894.0" y="612.0" width="40.0" height="30.0" fill="#FFC5C5" stroke="#E16C77" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-2-sh-7" x="1896.0" y="614.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-2-c-8" x="1934.0" y="612.0" width="40.0" height="30.0" fill="#FFA9AE" stroke="#D95A67" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-2-sh-8" x="1936.0" y="614.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+    </g>
+    <g id="Fig2b_F2_pb-tok-g-3" transform="translate(0,-4) translate(1568.340 690.000) scale(1.044284) translate(-1568.340 -690.000)">
+     <text id="Fig2b_F2_pb-tok-g-3-r0" x="1568.34" y="690.00" font-weight="400" fill="#152033" font-style="italic" style="font-size: 26.000007px; font-weight: 400; font-family: Arial; fill: #152033">g</text>
+     <text id="Fig2b_F2_pb-tok-g-3-r1" x="1583.97" y="695.72" font-weight="400" fill="#152033" font-style="italic" data-role="math-script" style="font-size: 25.929402px; font-weight: 400; font-family: Arial; fill: #152033">G</text>
+    </g>
+    <g id="Fig2b_F2_pb-tok-row-3" transform="translate(0,-4)">
+     <rect id="Fig2b_F2_pb-tok-row-3-c-0" x="1614.0" y="668.0" width="40.0" height="30.0" fill="#DFF3E3" stroke="#58AD6E" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-3-sh-0" x="1616.0" y="670.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-3-c-1" x="1654.0" y="668.0" width="40.0" height="30.0" fill="#BFDFC0" stroke="#3C9B57" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-3-sh-1" x="1656.0" y="670.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-3-c-2" x="1694.0" y="668.0" width="40.0" height="30.0" fill="#98CCA0" stroke="#2D8648" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-3-sh-2" x="1696.0" y="670.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-3-c-3" x="1734.0" y="668.0" width="40.0" height="30.0" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-3-sh-3" x="1736.0" y="670.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-3-c-4" x="1774.0" y="668.0" width="40.0" height="30.0" fill="#BDCEE9" stroke="#668EC0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-3-sh-4" x="1776.0" y="670.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-3-c-5" x="1814.0" y="668.0" width="40.0" height="30.0" fill="#A8B9D6" stroke="#6680B0" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-3-sh-5" x="1816.0" y="670.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-3-c-6" x="1854.0" y="668.0" width="40.0" height="30.0" fill="#FFE3E4" stroke="#E58A92" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-3-sh-6" x="1856.0" y="670.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-3-c-7" x="1894.0" y="668.0" width="40.0" height="30.0" fill="#FFC5C5" stroke="#E16C77" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-3-sh-7" x="1896.0" y="670.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+     <rect id="Fig2b_F2_pb-tok-row-3-c-8" x="1934.0" y="668.0" width="40.0" height="30.0" fill="#FFA9AE" stroke="#D95A67" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-tok-row-3-sh-8" x="1936.0" y="670.0" width="3.8" height="26.0" fill="#FFFFFF" opacity="0.38" />
+    </g>
+    <g id="Fig2b_F2_pb-tok-dots" transform="translate(0,-4)">
+     <circle id="Fig2b_F2_pb-tok-dots-0" cx="1794.0" cy="647.0" r="2.6" fill="#4A5A6B" />
+     <circle id="Fig2b_F2_pb-tok-dots-1" cx="1794.0" cy="654.0" r="2.6" fill="#4A5A6B" />
+     <circle id="Fig2b_F2_pb-tok-dots-2" cx="1794.0" cy="661.0" r="2.6" fill="#4A5A6B" />
+    </g>
+    <g id="Fig2b_F2_pb-expression-to-tokens">
+     <path id="Fig2b_F2_pb-expression-to-token-arrow-shaft" d="M 1428,466 L 1428,483 L 1674,483 L 1674,492" fill="none" stroke="#176535" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" />
+     <polygon id="Fig2b_F2_pb-expression-to-token-arrow-head" points="1674,502 1669,492 1679,492" fill="#176535" />
+    </g>
+    <g id="Fig2b_F2_pb-wire-e">
+     <path id="Fig2b_F2_pb-wire-e-s" d="M 1818,466 L 1818,483 L 1794,483 L 1794,492" fill="none" stroke="#104FA2" stroke-width="4.4" stroke-linejoin="round" stroke-linecap="round" />
+     <polygon id="Fig2b_F2_pb-wire-e-h" fill="#104FA2" points="1794,502 1789,492 1799,492" />
+    </g>
+    <g id="Fig2b_F2_pb-wire-p">
+     <path id="Fig2b_F2_pb-wire-p-s" d="M 2189,466 L 2189,483 L 1914,483 L 1914,492" fill="none" stroke="#C52941" stroke-width="4.4" stroke-linejoin="round" stroke-linecap="round" />
+     <polygon id="Fig2b_F2_pb-wire-p-h" fill="#C52941" points="1914,502 1909,492 1919,492" />
+    </g>
+    <g id="Fig2b_F2_pb-tok-eq">
+     <g id="Fig2b_F2_pb-token-runs" transform="translate(1278.000 618.000) scale(1.044284) translate(-1278.000 -618.000)">
+      <text id="Fig2b_F2_pb-token-runs-r0" x="1278.00" y="618.00" font-weight="700" fill="#152033" style="font-size: 26.000007px; font-weight: 700; font-family: Arial; fill: #152033">[ </text>
+      <text id="Fig2b_F2_pb-token-runs-r1" x="1293.88" y="618.00" font-weight="700" fill="#176535" font-style="italic" style="font-size: 26.000007px; font-weight: 700; font-family: Arial; fill: #176535">φ</text>
+      <text id="Fig2b_F2_pb-token-runs-r2" x="1309.75" y="624.00" font-weight="700" fill="#176535" font-style="italic" data-role="math-script" style="font-size: 25.929307px; font-weight: 700; font-family: Arial; fill: #176535">i</text>
+      <text id="Fig2b_F2_pb-token-runs-r3" x="1316.955" y="618.00" font-weight="700" fill="#176535" style="font-size: 26.000007px; font-weight: 700; font-family: Arial; fill: #176535">(</text>
+      <text id="Fig2b_F2_pb-token-runs-r4" x="1325.615" y="618.00" font-weight="700" fill="#176535" font-style="italic" style="font-size: 26.000007px; font-weight: 700; font-family: Arial; fill: #176535">x</text>
+      <text id="Fig2b_F2_pb-token-runs-r5" x="1340.065" y="624.00" font-weight="700" fill="#176535" font-style="italic" data-role="math-script" style="font-size: 25.929307px; font-weight: 700; font-family: Arial; fill: #176535">i</text>
+      <text id="Fig2b_F2_pb-token-runs-r6" x="1347.270" y="618.00" font-weight="700" fill="#176535" style="font-size: 26.000007px; font-weight: 700; font-family: Arial; fill: #176535">)</text>
+      <text id="Fig2b_F2_pb-token-runs-r7" x="1355.930" y="618.00" font-weight="700" fill="#4A5A6B" style="font-size: 26.000007px; font-weight: 700; font-family: Arial; fill: #4A5A6B"> | </text>
+      <text id="Fig2b_F2_pb-token-runs-r8" x="1377.650" y="618.00" font-weight="700" fill="#124B9D" font-style="italic" style="font-size: 26.000007px; font-weight: 700; font-family: Arial; fill: #124B9D">e</text>
+      <text id="Fig2b_F2_pb-token-runs-r9" x="1392.100" y="624.00" font-weight="700" fill="#124B9D" font-style="italic" data-role="math-script" style="font-size: 25.929307px; font-weight: 700; font-family: Arial; fill: #124B9D">i</text>
+      <text id="Fig2b_F2_pb-token-runs-r10" x="1399.305" y="618.00" font-weight="700" fill="#4A5A6B" style="font-size: 26.000007px; font-weight: 700; font-family: Arial; fill: #4A5A6B"> | </text>
+      <text id="Fig2b_F2_pb-token-runs-r11" x="1421.025" y="618.00" font-weight="700" fill="#B83246" font-style="italic" style="font-size: 26.000007px; font-weight: 700; font-family: Arial; fill: #B83246">p</text>
+      <text id="Fig2b_F2_pb-token-runs-r12" x="1436.895" y="624.00" font-weight="700" fill="#B83246" font-style="italic" data-role="math-script" style="font-size: 25.929307px; font-weight: 700; font-family: Arial; fill: #B83246">i</text>
+      <text id="Fig2b_F2_pb-token-runs-r13" x="1444.110" y="618.00" font-weight="700" fill="#152033" style="font-size: 26.000007px; font-weight: 700; font-family: Arial; fill: #152033"> ]</text>
+     </g>
+    </g>
+    <text id="Fig2b_F2_pb-tok-r1" x="2086.97" y="594.00" font-weight="700" fill="#152033" transform="translate(0,-4)" style="font-size: 27.151391px; font-weight: 700; font-family: Arial; fill: #152033">Gene tokens</text>
+    <g id="Fig2b_F2_pb-tok-r2" transform="translate(0,-4) translate(2102.780 642.000) scale(1.044284) translate(-2102.780 -642.000)">
+     <text id="Fig2b_F2_pb-tok-r2-r0" x="2102.78" y="642.00" font-weight="400" fill="#4A5A6B" font-style="italic" style="font-size: 25.929307px; font-weight: 400; font-family: Arial; fill: #4A5A6B">i</text>
+     <text id="Fig2b_F2_pb-tok-r2-r1" x="2116.95" y="642.00" font-weight="400" fill="#4A5A6B" style="font-size: 26.000007px; font-weight: 400; font-family: Arial; fill: #4A5A6B">= 1, …,</text>
+     <text id="Fig2b_F2_pb-tok-r2-r2" x="2211.57" y="642.00" font-weight="400" fill="#4A5A6B" font-style="italic" style="font-size: 25.929402px; font-weight: 400; font-family: Arial; fill: #4A5A6B">G</text>
+    </g>
+    <g id="Fig2b_F2_pb-s1-to-s2">
+     <path id="Fig2b_F2_pb-s1-to-s2-s" d="M 1494,718 L 1494,744" fill="none" stroke="#152033" stroke-width="4.4" stroke-linejoin="round" stroke-linecap="round" />
+     <polygon id="Fig2b_F2_pb-s1-to-s2-h" fill="#152033" points="1494,754 1489,744 1499,744" />
+    </g>
+    <rect id="Fig2b_F2_pb-int-card" x="1222.0" y="754" width="544.0" height="692" fill="url(#Fig2b_F2_core-inner)" stroke="#C7D2DF" stroke-width="1.8" rx="18" />
+    <circle id="Fig2b_F2_pb-s2-c" cx="1254.0" cy="796.0" r="18.0" fill="#152033" stroke="#152033" stroke-width="1" />
+    <text id="Fig2b_F2_pb-s2-n" x="1246.91" y="805.00" font-weight="700" fill="#FFFFFF" style="font-size: 27.077659px; font-weight: 700; font-family: Arial; fill: #FFFFFF">2</text>
+    <g id="Fig2b_F2_pb-s2-t">
+     <text id="Fig2b_F2_pb-s2-t-r0" x="1282.00" y="805.00" font-weight="700" fill="#152033" style="font-size: 28.000019px; font-weight: 700; font-family: Arial; fill: #152033">Signed gene-interaction matrix</text>
+     <text id="Fig2b_F2_pb-s2-t-r1" x="1703.61" y="805.00" font-weight="700" fill="#152033" font-style="italic" style="font-size: 28.000019px; font-weight: 700; font-family: Arial; fill: #152033">W</text>
+    </g>
+    <g id="Fig2b_F2_pb-dyn-graph-wrap" transform="translate(725.0,-685.0) scale(1.6800)">
+     <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph">
+                  <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edges">
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-4-to-5">
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-4-to-5-shaft" d="M 478.17,1091.39 L 483.12,1097.36" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" />
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-4-to-5-head" d="M 474.26,1093.01 L 483.12,1097.36 L 480.50,1087.85" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-5-to-3">
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-5-to-3-shaft" d="M 521.38,1117.24 L 539.09,1118.32" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" />
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-5-to-3-head" d="M 529.86,1121.82 L 539.09,1118.32 L 530.35,1113.73" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-4-to-7">
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-4-to-7-shaft" d="M 449.94,1092.24 L 439.62,1106.35" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" />
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-4-to-7-head" d="M 441.66,1096.69 L 439.62,1106.35 L 448.20,1101.47" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-6-to-2">
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-6-to-2-shaft" d="M 365.90,1081.43 L 378.90,1063.24" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" />
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-6-to-2-head" d="M 376.96,1072.92 L 378.90,1063.24 L 370.37,1068.21" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-2-to-4">
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-2-to-4-shaft" d="M 414.02,1052.69 L 441.41,1064.30" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" />
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-2-to-4-head" d="M 431.55,1064.52 L 441.41,1064.30 L 434.71,1057.06" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-4-to-1">
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-4-to-1-shaft" d="M 483.98,1063.19 L 510.91,1049.41" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" />
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-4-to-1-head" d="M 504.74,1057.11 L 510.91,1049.41 L 501.05,1049.90" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-1-to-3">
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-1-to-3-shaft" d="M 540.41,1059.98 L 554.55,1097.33" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" />
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-1-to-3-head" d="M 547.58,1090.34 L 554.55,1097.33 L 555.15,1087.48" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-1-to-5">
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-1-to-5-shaft" d="M 523.05,1059.54 L 508.04,1093.86" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" />
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-1-to-5-head" d="M 507.94,1083.99 L 508.04,1093.86 L 515.36,1087.24" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-2-to-1">
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-2-to-1-shaft" d="M 415.83,1042.85 L 508.29,1039.37" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" />
+        <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-edge-2-to-1-head" d="M 499.45,1043.76 L 508.29,1039.37 L 499.14,1035.66" fill="none" stroke="#71828A" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+       </g>
+      </g>
+      <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-nodes">
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-1">
+        <circle id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-1-shape" cx="532.27" cy="1038.47" r="21" fill="url(#Fig2b_F2_node-neutral)" stroke="#5F7391" stroke-width="1.8" />
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-1-label-b" x="520.36" y="1045.61" font-style="italic" fill="#152033" style="font-size: 16.161542px; font-family: Arial; fill: #152033">g</text>
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-1-label-s" x="532.67" y="1050.65" fill="#152033" data-role="math-script" style="font-size: 16.161542px; font-family: Arial; fill: #152033">1</text>
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-1-embedding-0" x="529.273" y="1063.470" width="6" height="3.3" fill="#DFF3E3" stroke="#58AD6E" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-1-embedding-1" x="529.273" y="1066.770" width="6" height="3.3" fill="#BFDFC0" stroke="#3C9B57" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-1-embedding-2" x="529.273" y="1070.070" width="6" height="3.3" fill="#98CCA0" stroke="#2D8648" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-1-embedding-3" x="529.273" y="1073.370" width="6" height="3.3" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-1-embedding-4" x="529.273" y="1076.670" width="6" height="3.3" fill="#BDCEE9" stroke="#668EC0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-1-embedding-5" x="529.273" y="1079.970" width="6" height="3.3" fill="#A8B9D6" stroke="#6680B0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-1-embedding-6" x="529.273" y="1083.270" width="6" height="3.3" fill="#FFE3E4" stroke="#E58A92" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-1-embedding-7" x="529.273" y="1086.570" width="6" height="3.3" fill="#FFC5C5" stroke="#E16C77" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-1-embedding-8" x="529.273" y="1089.870" width="6" height="3.3" fill="#FFA9AE" stroke="#D95A67" stroke-width="0.75" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-2">
+        <circle id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-2-shape" cx="392.85" cy="1043.71" r="21" fill="url(#Fig2b_F2_node-neutral)" stroke="#5F7391" stroke-width="1.8" />
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-2-label-b" x="380.94" y="1050.85" font-style="italic" fill="#152033" style="font-size: 16.161542px; font-family: Arial; fill: #152033">g</text>
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-2-label-s" x="393.25" y="1055.89" fill="#152033" data-role="math-script" style="font-size: 16.117654px; font-family: Arial; fill: #152033">2</text>
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-2-embedding-0" x="389.847" y="1068.710" width="6" height="3.3" fill="#DFF3E3" stroke="#58AD6E" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-2-embedding-1" x="389.847" y="1072.010" width="6" height="3.3" fill="#BFDFC0" stroke="#3C9B57" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-2-embedding-2" x="389.847" y="1075.310" width="6" height="3.3" fill="#98CCA0" stroke="#2D8648" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-2-embedding-3" x="389.847" y="1078.610" width="6" height="3.3" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-2-embedding-4" x="389.847" y="1081.910" width="6" height="3.3" fill="#BDCEE9" stroke="#668EC0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-2-embedding-5" x="389.847" y="1085.210" width="6" height="3.3" fill="#A8B9D6" stroke="#6680B0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-2-embedding-6" x="389.847" y="1088.510" width="6" height="3.3" fill="#FFE3E4" stroke="#E58A92" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-2-embedding-7" x="389.847" y="1091.810" width="6" height="3.3" fill="#FFC5C5" stroke="#E16C77" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-2-embedding-8" x="389.847" y="1095.110" width="6" height="3.3" fill="#FFA9AE" stroke="#D95A67" stroke-width="0.75" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-3">
+        <circle id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-3-shape" cx="563.05" cy="1119.77" r="21" fill="url(#Fig2b_F2_node-neutral)" stroke="#5F7391" stroke-width="1.8" />
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-3-label-b" x="551.13" y="1126.91" font-style="italic" fill="#152033" style="font-size: 16.161542px; font-family: Arial; fill: #152033">g</text>
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-3-label-s" x="563.44" y="1131.95" fill="#152033" data-role="math-script" style="font-size: 16.117654px; font-family: Arial; fill: #152033">3</text>
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-3-embedding-0" x="560.045" y="1144.770" width="6" height="3.3" fill="#DFF3E3" stroke="#58AD6E" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-3-embedding-1" x="560.045" y="1148.070" width="6" height="3.3" fill="#BFDFC0" stroke="#3C9B57" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-3-embedding-2" x="560.045" y="1151.370" width="6" height="3.3" fill="#98CCA0" stroke="#2D8648" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-3-embedding-3" x="560.045" y="1154.670" width="6" height="3.3" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-3-embedding-4" x="560.045" y="1157.970" width="6" height="3.3" fill="#BDCEE9" stroke="#668EC0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-3-embedding-5" x="560.045" y="1161.270" width="6" height="3.3" fill="#A8B9D6" stroke="#6680B0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-3-embedding-6" x="560.045" y="1164.570" width="6" height="3.3" fill="#FFE3E4" stroke="#E58A92" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-3-embedding-7" x="560.045" y="1167.870" width="6" height="3.3" fill="#FFC5C5" stroke="#E16C77" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-3-embedding-8" x="560.045" y="1171.170" width="6" height="3.3" fill="#FFA9AE" stroke="#D95A67" stroke-width="0.75" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-4">
+        <circle id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-4-shape" cx="463.51" cy="1073.67" r="21" fill="url(#Fig2b_F2_node-neutral)" stroke="#5F7391" stroke-width="1.8" />
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-4-label-b" x="451.60" y="1080.81" font-style="italic" fill="#152033" style="font-size: 16.161542px; font-family: Arial; fill: #152033">g</text>
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-4-label-s" x="463.91" y="1085.85" fill="#152033" data-role="math-script" style="font-size: 16.117596px; font-family: Arial; fill: #152033">4</text>
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-4-embedding-0" x="460.511" y="1098.670" width="6" height="3.3" fill="#DFF3E3" stroke="#58AD6E" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-4-embedding-1" x="460.511" y="1101.970" width="6" height="3.3" fill="#BFDFC0" stroke="#3C9B57" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-4-embedding-2" x="460.511" y="1105.270" width="6" height="3.3" fill="#98CCA0" stroke="#2D8648" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-4-embedding-3" x="460.511" y="1108.570" width="6" height="3.3" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-4-embedding-4" x="460.511" y="1111.870" width="6" height="3.3" fill="#BDCEE9" stroke="#668EC0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-4-embedding-5" x="460.511" y="1115.170" width="6" height="3.3" fill="#A8B9D6" stroke="#6680B0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-4-embedding-6" x="460.511" y="1118.470" width="6" height="3.3" fill="#FFE3E4" stroke="#E58A92" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-4-embedding-7" x="460.511" y="1121.770" width="6" height="3.3" fill="#FFC5C5" stroke="#E16C77" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-4-embedding-8" x="460.511" y="1125.070" width="6" height="3.3" fill="#FFA9AE" stroke="#D95A67" stroke-width="0.75" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-5">
+        <circle id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-5-shape" cx="498.42" cy="1115.85" r="21" fill="url(#Fig2b_F2_node-neutral)" stroke="#5F7391" stroke-width="1.8" />
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-5-label-b" x="486.51" y="1122.99" font-style="italic" fill="#152033" style="font-size: 16.161542px; font-family: Arial; fill: #152033">g</text>
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-5-label-s" x="498.82" y="1128.03" fill="#152033" data-role="math-script" style="font-size: 16.117596px; font-family: Arial; fill: #152033">5</text>
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-5-embedding-0" x="495.419" y="1140.850" width="6" height="3.3" fill="#DFF3E3" stroke="#58AD6E" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-5-embedding-1" x="495.419" y="1144.150" width="6" height="3.3" fill="#BFDFC0" stroke="#3C9B57" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-5-embedding-2" x="495.419" y="1147.450" width="6" height="3.3" fill="#98CCA0" stroke="#2D8648" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-5-embedding-3" x="495.419" y="1150.750" width="6" height="3.3" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-5-embedding-4" x="495.419" y="1154.050" width="6" height="3.3" fill="#BDCEE9" stroke="#668EC0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-5-embedding-5" x="495.419" y="1157.350" width="6" height="3.3" fill="#A8B9D6" stroke="#6680B0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-5-embedding-6" x="495.419" y="1160.650" width="6" height="3.3" fill="#FFE3E4" stroke="#E58A92" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-5-embedding-7" x="495.419" y="1163.950" width="6" height="3.3" fill="#FFC5C5" stroke="#E16C77" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-5-embedding-8" x="495.419" y="1167.250" width="6" height="3.3" fill="#FFA9AE" stroke="#D95A67" stroke-width="0.75" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-6">
+        <circle id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-6-shape" cx="352.53" cy="1100.15" r="21" fill="url(#Fig2b_F2_node-neutral)" stroke="#5F7391" stroke-width="1.8" />
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-6-label-b" x="340.62" y="1107.29" font-style="italic" fill="#152033" style="font-size: 16.161542px; font-family: Arial; fill: #152033">g</text>
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-6-label-s" x="352.93" y="1112.33" fill="#152033" data-role="math-script" style="font-size: 16.117596px; font-family: Arial; fill: #152033">6</text>
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-6-embedding-0" x="349.535" y="1125.150" width="6" height="3.3" fill="#DFF3E3" stroke="#58AD6E" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-6-embedding-1" x="349.535" y="1128.450" width="6" height="3.3" fill="#BFDFC0" stroke="#3C9B57" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-6-embedding-2" x="349.535" y="1131.750" width="6" height="3.3" fill="#98CCA0" stroke="#2D8648" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-6-embedding-3" x="349.535" y="1135.050" width="6" height="3.3" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-6-embedding-4" x="349.535" y="1138.350" width="6" height="3.3" fill="#BDCEE9" stroke="#668EC0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-6-embedding-5" x="349.535" y="1141.650" width="6" height="3.3" fill="#A8B9D6" stroke="#6680B0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-6-embedding-6" x="349.535" y="1144.950" width="6" height="3.3" fill="#FFE3E4" stroke="#E58A92" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-6-embedding-7" x="349.535" y="1148.250" width="6" height="3.3" fill="#FFC5C5" stroke="#E16C77" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-6-embedding-8" x="349.535" y="1151.550" width="6" height="3.3" fill="#FFA9AE" stroke="#D95A67" stroke-width="0.75" />
+       </g>
+       <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-7">
+        <circle id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-7-shape" cx="425.46" cy="1125.72" r="21" fill="url(#Fig2b_F2_node-neutral)" stroke="#5F7391" stroke-width="1.8" />
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-7-label-b" x="413.55" y="1132.86" font-style="italic" fill="#152033" style="font-size: 16.161542px; font-family: Arial; fill: #152033">g</text>
+        <text id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-7-label-s" x="425.86" y="1137.90" fill="#152033" data-role="math-script" style="font-size: 16.117596px; font-family: Arial; fill: #152033">7</text>
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-7-embedding-0" x="422.458" y="1150.720" width="6" height="3.3" fill="#DFF3E3" stroke="#58AD6E" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-7-embedding-1" x="422.458" y="1154.020" width="6" height="3.3" fill="#BFDFC0" stroke="#3C9B57" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-7-embedding-2" x="422.458" y="1157.320" width="6" height="3.3" fill="#98CCA0" stroke="#2D8648" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-7-embedding-3" x="422.458" y="1160.620" width="6" height="3.3" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-7-embedding-4" x="422.458" y="1163.920" width="6" height="3.3" fill="#BDCEE9" stroke="#668EC0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-7-embedding-5" x="422.458" y="1167.220" width="6" height="3.3" fill="#A8B9D6" stroke="#6680B0" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-7-embedding-6" x="422.458" y="1170.520" width="6" height="3.3" fill="#FFE3E4" stroke="#E58A92" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-7-embedding-7" x="422.458" y="1173.820" width="6" height="3.3" fill="#FFC5C5" stroke="#E16C77" stroke-width="0.75" />
+        <rect id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-gene-7-embedding-8" x="422.458" y="1177.120" width="6" height="3.3" fill="#FFA9AE" stroke="#D95A67" stroke-width="0.75" />
+       </g>
+      </g>
+      <g id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-self-loop">
+       <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-loop" d="M 521.273,1016.47 C 502.273,983.47 562.273,983.47 543.273,1016.47" fill="none" stroke="#71828A" stroke-width="1.8" stroke-linecap="round" />
+       <path id="Fig2b_F2_pb-dyn-graph-dynamics-internal-graph-loop-head" d="M 548.273,1008.47 L 543.273,1016.47 L 536.273,1009.47" fill="none" stroke="#71828A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+      </g>
+     </g>
+    </g>
+    <rect id="Fig2b_F2_pb-dec-card" x="1802.0" y="754" width="574.0" height="692" fill="#FFFFFF" stroke="#C7D2DF" stroke-width="1.8" rx="18" />
+    <circle id="Fig2b_F2_pb-s3-c" cx="1834.0" cy="796.0" r="18.0" fill="#152033" stroke="#152033" stroke-width="1" />
+    <text id="Fig2b_F2_pb-s3-n" x="1826.91" y="805.00" font-weight="700" fill="#FFFFFF" style="font-size: 27.077659px; font-weight: 700; font-family: Arial; fill: #FFFFFF">3</text>
+    <text id="Fig2b_F2_pb-s3-t" x="1862.00" y="805.00" font-weight="700" fill="#152033" style="font-size: 28.000019px; font-weight: 700; font-family: Arial; fill: #152033">Shared receiver</text>
+    <g id="Fig2b_F2_pb-dyn-message">
+     <text id="Fig2b_F2_pb-aggregated-label" x="1889" y="940" font-weight="700" fill="#584B9E" text-anchor="middle" style="font-size: 27.151391px; font-weight: 700; text-anchor: middle; font-family: Arial; fill: #584B9E">Aggregated</text>
+     <path id="Fig2b_F2_pb-graph-message-branches" d="M 1740,1110 L 1856,1110" fill="none" stroke="#584B9E" stroke-width="4.4" stroke-linejoin="round" />
+     <path id="Fig2b_F2_pb-graph-to-encoded-shaft" d="M 1852,1110 L 1858,1110" fill="none" stroke="#584B9E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+     <polygon id="Fig2b_F2_pb-graph-to-encoded-head" points="1868,1110 1858,1105 1858,1115" fill="#584B9E" />
+     <g id="Fig2b_F2_pb-aggregated-vertical-bar">
+      <rect id="Fig2b_F2_pb-agg-vec-c-0" x="1868.0" y="966.0" width="42.0" height="32.0" fill="#DFF3E3" stroke="#58AD6E" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-agg-vec-sh-0" x="1870.0" y="968.0" width="3.8" height="28.0" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-agg-vec-c-1" x="1868.0" y="998.0" width="42.0" height="32.0" fill="#BFDFC0" stroke="#3C9B57" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-agg-vec-sh-1" x="1870.0" y="1000.0" width="3.8" height="28.0" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-agg-vec-c-2" x="1868.0" y="1030.0" width="42.0" height="32.0" fill="#98CCA0" stroke="#2D8648" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-agg-vec-sh-2" x="1870.0" y="1032.0" width="3.8" height="28.0" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-agg-vec-c-3" x="1868.0" y="1062.0" width="42.0" height="32.0" fill="#DAEDFA" stroke="#3B8FCB" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-agg-vec-sh-3" x="1870.0" y="1064.0" width="3.8" height="28.0" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-agg-vec-c-4" x="1868.0" y="1094.0" width="42.0" height="32.0" fill="#BDCEE9" stroke="#668EC0" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-agg-vec-sh-4" x="1870.0" y="1096.0" width="3.8" height="28.0" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-agg-vec-c-5" x="1868.0" y="1126.0" width="42.0" height="32.0" fill="#A8B9D6" stroke="#6680B0" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-agg-vec-sh-5" x="1870.0" y="1128.0" width="3.8" height="28.0" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-agg-vec-c-6" x="1868.0" y="1158.0" width="42.0" height="32.0" fill="#FFE3E4" stroke="#E58A92" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-agg-vec-sh-6" x="1870.0" y="1160.0" width="3.8" height="28.0" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-agg-vec-c-7" x="1868.0" y="1190.0" width="42.0" height="32.0" fill="#FFC5C5" stroke="#E16C77" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-agg-vec-sh-7" x="1870.0" y="1192.0" width="3.8" height="28.0" fill="#FFFFFF" opacity="0.38" />
+      <rect id="Fig2b_F2_pb-agg-vec-c-8" x="1868.0" y="1222.0" width="42.0" height="32.0" fill="#FFA9AE" stroke="#D95A67" stroke-width="1.35" />
+      <rect id="Fig2b_F2_pb-agg-vec-sh-8" x="1870.0" y="1224.0" width="3.8" height="28.0" fill="#FFFFFF" opacity="0.38" />
+     </g>
+    </g>
+    <g id="Fig2b_F2_pb-dyn-decoder-paths">
+     <path id="Fig2b_F2_pb-encoded-to-decoder-shaft" d="M 1910,1110 L 1998,1110" fill="none" stroke="#584B9E" stroke-width="4.4" stroke-linecap="round" stroke-linejoin="round" />
+     <polygon id="Fig2b_F2_pb-encoded-to-decoder-head" points="2008,1110 1998,1105 1998,1115" fill="#584B9E" />
+    </g>
+    <g id="Fig2b_F2_pb-mlp-web" opacity="0.42" transform="translate(310,-332) rotate(-90,1789,1442)">
+     <path id="Fig2b_F2_pb-mw1" d="M 1639.0,1368.0 L 1689.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-1" d="M 1639.0,1368.0 L 1739.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-2" d="M 1639.0,1368.0 L 1789.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-3" d="M 1639.0,1368.0 L 1839.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-4" d="M 1639.0,1368.0 L 1889.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-5" d="M 1689.0,1368.0 L 1689.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-6" d="M 1689.0,1368.0 L 1739.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-7" d="M 1689.0,1368.0 L 1789.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-8" d="M 1689.0,1368.0 L 1839.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-9" d="M 1689.0,1368.0 L 1889.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-10" d="M 1739.0,1368.0 L 1689.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-11" d="M 1739.0,1368.0 L 1739.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-12" d="M 1739.0,1368.0 L 1789.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-13" d="M 1739.0,1368.0 L 1839.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-14" d="M 1739.0,1368.0 L 1889.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-15" d="M 1789.0,1368.0 L 1689.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-16" d="M 1789.0,1368.0 L 1739.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-17" d="M 1789.0,1368.0 L 1789.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-18" d="M 1789.0,1368.0 L 1839.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-19" d="M 1789.0,1368.0 L 1889.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-20" d="M 1839.0,1368.0 L 1689.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-21" d="M 1839.0,1368.0 L 1739.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-22" d="M 1839.0,1368.0 L 1789.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-23" d="M 1839.0,1368.0 L 1839.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-24" d="M 1839.0,1368.0 L 1889.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-25" d="M 1889.0,1368.0 L 1689.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-26" d="M 1889.0,1368.0 L 1739.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-27" d="M 1889.0,1368.0 L 1789.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-28" d="M 1889.0,1368.0 L 1839.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-29" d="M 1889.0,1368.0 L 1889.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-30" d="M 1939.0,1368.0 L 1689.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-31" d="M 1939.0,1368.0 L 1739.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-32" d="M 1939.0,1368.0 L 1789.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-33" d="M 1939.0,1368.0 L 1839.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw1-34" d="M 1939.0,1368.0 L 1889.0,1446.0" stroke="#6E60B8" stroke-width="1.5" fill="none" />
+     <path id="Fig2b_F2_pb-mw2" d="M 1689.0,1446.0 L 1789.0,1516.0" stroke="#6E60B8" stroke-width="1.6" fill="none" />
+     <path id="Fig2b_F2_pb-mw2-35" d="M 1739.0,1446.0 L 1789.0,1516.0" stroke="#6E60B8" stroke-width="1.6" fill="none" />
+     <path id="Fig2b_F2_pb-mw2-36" d="M 1789.0,1446.0 L 1789.0,1516.0" stroke="#6E60B8" stroke-width="1.6" fill="none" />
+     <path id="Fig2b_F2_pb-mw2-37" d="M 1839.0,1446.0 L 1789.0,1516.0" stroke="#6E60B8" stroke-width="1.6" fill="none" />
+     <path id="Fig2b_F2_pb-mw2-38" d="M 1889.0,1446.0 L 1789.0,1516.0" stroke="#6E60B8" stroke-width="1.6" fill="none" />
+    </g>
+    <circle id="Fig2b_F2_pb-mlp-in-0" cx="1639.0" cy="1368.0" r="9.0" fill="#E8E4F8" stroke="#6E60B8" stroke-width="2" transform="translate(310,-332) rotate(-90,1789,1442)" />
+    <circle id="Fig2b_F2_pb-mlp-in-1" cx="1689.0" cy="1368.0" r="9.0" fill="#E8E4F8" stroke="#6E60B8" stroke-width="2" transform="translate(310,-332) rotate(-90,1789,1442)" />
+    <circle id="Fig2b_F2_pb-mlp-in-2" cx="1739.0" cy="1368.0" r="9.0" fill="#E8E4F8" stroke="#6E60B8" stroke-width="2" transform="translate(310,-332) rotate(-90,1789,1442)" />
+    <circle id="Fig2b_F2_pb-mlp-in-3" cx="1789.0" cy="1368.0" r="9.0" fill="#E8E4F8" stroke="#6E60B8" stroke-width="2" transform="translate(310,-332) rotate(-90,1789,1442)" />
+    <circle id="Fig2b_F2_pb-mlp-in-4" cx="1839.0" cy="1368.0" r="9.0" fill="#E8E4F8" stroke="#6E60B8" stroke-width="2" transform="translate(310,-332) rotate(-90,1789,1442)" />
+    <circle id="Fig2b_F2_pb-mlp-in-5" cx="1889.0" cy="1368.0" r="9.0" fill="#E8E4F8" stroke="#6E60B8" stroke-width="2" transform="translate(310,-332) rotate(-90,1789,1442)" />
+    <circle id="Fig2b_F2_pb-mlp-in-6" cx="1939.0" cy="1368.0" r="9.0" fill="#E8E4F8" stroke="#6E60B8" stroke-width="2" transform="translate(310,-332) rotate(-90,1789,1442)" />
+    <circle id="Fig2b_F2_pb-mlp-hid-0" cx="1689.0" cy="1446.0" r="9.5" fill="#E8E4F8" stroke="#6E60B8" stroke-width="2" transform="translate(310,-332) rotate(-90,1789,1442)" />
+    <circle id="Fig2b_F2_pb-mlp-hid-1" cx="1739.0" cy="1446.0" r="9.5" fill="#E8E4F8" stroke="#6E60B8" stroke-width="2" transform="translate(310,-332) rotate(-90,1789,1442)" />
+    <circle id="Fig2b_F2_pb-mlp-hid-2" cx="1789.0" cy="1446.0" r="9.5" fill="#E8E4F8" stroke="#6E60B8" stroke-width="2" transform="translate(310,-332) rotate(-90,1789,1442)" />
+    <circle id="Fig2b_F2_pb-mlp-hid-3" cx="1839.0" cy="1446.0" r="9.5" fill="#E8E4F8" stroke="#6E60B8" stroke-width="2" transform="translate(310,-332) rotate(-90,1789,1442)" />
+    <circle id="Fig2b_F2_pb-mlp-hid-4" cx="1889.0" cy="1446.0" r="9.5" fill="#E8E4F8" stroke="#6E60B8" stroke-width="2" transform="translate(310,-332) rotate(-90,1789,1442)" />
+    <circle id="Fig2b_F2_pb-mlp-out" cx="1789.0" cy="1516.0" r="11.0" fill="#E8E4F8" stroke="#6E60B8" stroke-width="2.2" transform="translate(310,-332) rotate(-90,1789,1442)" />
+    <rect id="Fig2b_F2_pb-ode-card" x="1222.0" y="1480" width="1154.0" height="186" fill="#FFFFFF" stroke="#C7D2DF" stroke-width="2" rx="18" />
+    <g id="Fig2b_F2_pb-velocity-output-connector">
+     <path id="Fig2b_F2_pb-velocity-output-connector-s" d="M 2184,1110 L 2224,1110 L 2224,1526" fill="none" stroke="#152033" stroke-width="4.4" stroke-linejoin="round" stroke-linecap="round" />
+     <polygon id="Fig2b_F2_pb-velocity-output-connector-h" fill="#152033" points="2224,1536 2219,1526 2229,1526" />
+    </g>
+    <rect id="Fig2b_F2_pb-rate-box" x="1634.0" y="1718.0" width="310.0" height="114.0" fill="#FFFFFF" stroke="#152033" stroke-width="2" rx="16" transform="translate(380,-182)" />
+    <g id="Fig2b_F2_pb-rate-sc" transform="translate(392,-186)">
+     <rect id="Fig2b_F2_pb-rate-sc-0" x="1660.0" y="1762.0" width="36.0" height="36.0" fill="#DCE3EC" stroke="#152033" stroke-width="1.35" />
+     <rect id="Fig2b_F2_pb-rate-sc-s-0" x="1661.8" y="1763.8" width="3.8" height="32.4" fill="#FFFFFF" opacity="0.38" />
+    </g>
+    <g id="Fig2b_F2_pb-rate-eq" transform="translate(386,-188)">
+     <text id="Fig2b_F2_pb-rate-eq-r0" x="1757.19" y="1782.00" font-weight="700" fill="#152033" font-style="italic" style="font-size: 31.999980px; font-weight: 700; font-family: Arial; fill: #152033">dx</text>
+     <text id="Fig2b_F2_pb-rate-eq-r1" x="1795.97" y="1789.04" font-weight="700" fill="#152033" font-style="italic" data-role="math-script" style="font-size: 27.077561px; font-weight: 700; font-family: Arial; fill: #152033">i</text>
+     <text id="Fig2b_F2_pb-rate-eq-r2" x="1813.824" y="1782.00" font-weight="700" fill="#152033" style="font-size: 31.999980px; font-weight: 700; font-family: Arial; fill: #152033">/</text>
+     <text id="Fig2b_F2_pb-rate-eq-r3" x="1835.124" y="1782.00" font-weight="700" fill="#152033" font-style="italic" style="font-size: 31.999980px; font-weight: 700; font-family: Arial; fill: #152033">dt</text>
+    </g>
+    <text id="Fig2b_F2_pb-rate-lbl" x="1785.60" y="1820.00" font-weight="400" fill="#4A5A6B" transform="translate(386,-186)" style="font-size: 27.151391px; font-weight: 400; font-family: Arial; fill: #4A5A6B">Rate</text>
+    <g id="Fig2b_F2_pb-rate-to-ode">
+     <path id="Fig2b_F2_pb-rate-to-ode-s" d="M 2014,1593 L 1744,1593" fill="none" stroke="#152033" stroke-width="4.4" stroke-linejoin="round" stroke-linecap="round" />
+     <polygon id="Fig2b_F2_pb-rate-to-ode-h" fill="#152033" points="1734,1593 1744,1588 1744,1598" />
+    </g>
+    <rect id="Fig2b_F2_pb-ode-box" x="1256.0" y="1718.0" width="298.0" height="114.0" fill="#FFFFFF" stroke="#152033" stroke-width="2.2" rx="16" transform="translate(180,-182)" />
+    <path id="Fig2b_F2_pb-ode-int" d="M 1314,1756 C 1306,1752 1300,1758 1300,1770 L 1300,1792 C 1300,1804 1294,1810 1286,1806" fill="none" stroke="#152033" stroke-width="3.6" stroke-linecap="round" transform="translate(196,-186)" />
+    <text id="Fig2b_F2_pb-ode-txt" x="1347.18" y="1790.00" font-weight="700" fill="#152033" transform="translate(196,-186)" style="font-size: 28.500008px; font-weight: 700; font-family: Arial; fill: #152033">ODE solver</text>
+    <circle id="Fig2b_F2_pb-s4-c" cx="1254.0" cy="1518.0" r="18.0" fill="#152033" stroke="#152033" stroke-width="1" />
+    <text id="Fig2b_F2_pb-s4-n" x="1246.91" y="1527.00" font-weight="700" fill="#FFFFFF" style="font-size: 27.077561px; font-weight: 700; font-family: Arial; fill: #FFFFFF">4</text>
+    <text id="Fig2b_F2_pb-s4-t" x="1282.00" y="1527.00" font-weight="700" fill="#152033" style="font-size: 28.000019px; font-weight: 700; font-family: Arial; fill: #152033">Rate &amp; ODE step</text>
+    <text id="Fig2b_F2_pb-s4-sub" x="1536.00" y="1527.00" font-weight="700" fill="#4A5A6B" style="font-size: 27.151391px; font-weight: 700; font-family: Arial; fill: #4A5A6B">·  Gene-indexed rollout</text>
+    <path id="Fig2b_F2_pb-fb-b1" d="M 1436,1593 L 1176,1593" fill="none" stroke="#152033" stroke-width="3.2" stroke-linecap="round" />
+    <path id="Fig2b_F2_pb-fb-b2" d="M 1176,1593 L 1176,1160" fill="none" stroke="#152033" stroke-width="3.2" stroke-linecap="round" />
+    <rect id="Fig2b_F2_pb-fb-pill" x="1151.0" y="790" width="50.0" height="370" fill="#F6F8FB" stroke="#152033" stroke-width="2" rx="15" />
+    <g id="Fig2b_F2_pb-fb-txt" transform="translate(0,-8) rotate(-90,1185.0,1035.0) translate(1078.200 1035.000) scale(1.024581) translate(-1078.200 -1035.000)">
+     <text id="Fig2b_F2_pb-fb-txt-r0" x="1078.20" y="1035.00" font-weight="700" fill="#152033" style="font-size: 26.499995px; font-weight: 700; font-family: Arial; fill: #152033">Update</text>
+     <text id="Fig2b_F2_pb-fb-txt-r1" x="1178.29" y="1035.00" font-weight="700" fill="#152033" font-style="italic" style="font-size: 26.499995px; font-weight: 700; font-family: Arial; fill: #152033">x</text>
+     <text id="Fig2b_F2_pb-fb-txt-r2" x="1194.22" y="1040.83" font-weight="700" fill="#152033" font-style="italic" data-role="math-script" style="font-size: 26.427936px; font-weight: 700; font-family: Arial; fill: #152033">i</text>
+     <text id="Fig2b_F2_pb-fb-txt-r3" x="1202.754" y="1035.00" font-weight="700" fill="#152033" style="font-size: 26.499995px; font-weight: 700; font-family: Arial; fill: #152033">(</text>
+     <text id="Fig2b_F2_pb-fb-txt-r4" x="1211.574" y="1035.00" font-weight="700" fill="#152033" font-style="italic" style="font-size: 26.499995px; font-weight: 700; font-family: Arial; fill: #152033">t</text>
+     <text id="Fig2b_F2_pb-fb-txt-r5" x="1230.964" y="1035.00" font-weight="700" fill="#152033" style="font-size: 26.499995px; font-weight: 700; font-family: Arial; fill: #152033">+ Δ</text>
+     <text id="Fig2b_F2_pb-fb-txt-r6" x="1272.844" y="1035.00" font-weight="700" fill="#152033" font-style="italic" style="font-size: 26.499995px; font-weight: 700; font-family: Arial; fill: #152033">t</text>
+     <text id="Fig2b_F2_pb-fb-txt-r7" x="1284.874" y="1035.00" font-weight="700" fill="#152033" style="font-size: 26.499995px; font-weight: 700; font-family: Arial; fill: #152033">)</text>
+    </g>
+    <g id="Fig2b_F2_pb-fb-top">
+     <path id="Fig2b_F2_pb-fb-top-s" d="M 1176,790 L 1176,264 L 1212,264" fill="none" stroke="#152033" stroke-width="4.4" stroke-linejoin="round" stroke-linecap="round" />
+     <polygon id="Fig2b_F2_pb-fb-top-h" fill="#152033" points="1222,264 1212,269 1212,259" />
+    </g>
+    <text id="Fig2b_F2_pb-co-label" x="1758" y="266" font-weight="700" fill="#124B9D" text-anchor="middle" style="font-size: 27.151391px; font-weight: 700; text-anchor: middle; font-family: Arial; fill: #124B9D">Co-expression</text>
+    <g id="Fig2b_F2_pb-id-vec-label" transform="translate(1900.550 268.000) scale(1.086056) translate(-1900.550 -268.000)">
+     <text id="Fig2b_F2_pb-id-vec-label-r0" x="1900.55" y="268.00" font-weight="700" fill="#124B9D" font-style="italic" style="font-size: 24.999992px; font-weight: 700; font-family: Arial; fill: #124B9D">e</text>
+     <text id="Fig2b_F2_pb-id-vec-label-r1" x="1914.45" y="274.00" font-weight="700" fill="#124B9D" font-style="italic" data-role="math-script" style="font-size: 24.932012px; font-weight: 700; font-family: Arial; fill: #124B9D">i</text>
+    </g>
+    <g id="Fig2b_F2_pb-pert-vec-label" transform="translate(2168.370 268.000) scale(1.086056) translate(-2168.370 -268.000)">
+     <text id="Fig2b_F2_pb-pert-vec-label-r0" x="2168.37" y="268.00" font-weight="700" fill="#B83246" font-style="italic" style="font-size: 24.999992px; font-weight: 700; font-family: Arial; fill: #B83246">p</text>
+     <text id="Fig2b_F2_pb-pert-vec-label-r1" x="2183.63" y="274.00" font-weight="700" fill="#B83246" font-style="italic" data-role="math-script" style="font-size: 24.932012px; font-weight: 700; font-family: Arial; fill: #B83246">i</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ </svg>

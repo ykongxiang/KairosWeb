@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="176.0000mm" height="37.0557mm" viewBox="2.0000 50.0000 176.0000 37.0557" version="1.1"><defs /><defs id="Fig5_defs"><style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+  </defs><g id="Fig5_c" transform="translate(3 51) scale(0.35277777777777775)"><defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="Fig5_c_figure_1">
+  <g id="Fig5_c_patch_1">
+   <path d="M 0 96.377953  L 493.228346 96.377953  L 493.228346 0  L 0 0  z " style="fill: #ffffff" />
+  </g>
+  <g id="Fig5_c_axes_1">
+   <g id="Fig5_c_patch_2">
+    <path d="M 45.354331 82.204724  L 119.055118 82.204724  L 119.055118 14.173228  L 45.354331 14.173228  z " style="fill: #ffffff" />
+   </g>
+   <g id="Fig5_c_patch_3">
+    <path d="M 79.871497 16.916434  L 115.705082 16.916434  L 115.705082 24.597409  L 79.871497 24.597409  z " clip-path="url(#Fig5_c_p392e5e2a69)" style="fill: #B26D5D" />
+   </g>
+   <g id="Fig5_c_patch_4">
+    <path d="M 79.871497 27.889256  L 48.704366 27.889256  L 48.704366 35.570231  L 79.871497 35.570231  z " clip-path="url(#Fig5_c_p392e5e2a69)" style="fill: #106898" />
+   </g>
+   <g id="Fig5_c_patch_5">
+    <path d="M 79.871497 38.862078  L 58.635792 38.862078  L 58.635792 46.543053  L 79.871497 46.543053  z " clip-path="url(#Fig5_c_p392e5e2a69)" style="fill: #106898" />
+   </g>
+   <g id="Fig5_c_patch_6">
+    <path d="M 79.871497 49.8349  L 64.02642 49.8349  L 64.02642 57.515875  L 79.871497 57.515875  z " clip-path="url(#Fig5_c_p392e5e2a69)" style="fill: #106898" />
+   </g>
+   <g id="Fig5_c_patch_7">
+    <path d="M 79.871497 60.807722  L 65.344451 60.807722  L 65.344451 68.488697  L 79.871497 68.488697  z " clip-path="url(#Fig5_c_p392e5e2a69)" style="fill: #106898" />
+   </g>
+   <g id="Fig5_c_patch_8">
+    <path d="M 79.871497 71.780544  L 92.001861 71.780544  L 92.001861 79.461519  L 79.871497 79.461519  z " clip-path="url(#Fig5_c_p392e5e2a69)" style="fill: #B26D5D" />
+   </g>
+   <g id="Fig5_c_matplotlib.axis_1">
+    <g id="Fig5_c_xtick_1">
+     <g id="Fig5_c_line2d_1">
+      <defs>
+       <path id="Fig5_c_m5a7feb8910" d="M 0 0  L 0 1.5  " style="stroke: #000000; stroke-width: 0.4" />
+      </defs>
+      <g>
+       <use xlink:href="#Fig5_c_m5a7feb8910" x="79.871497" y="82.204724" style="stroke: #000000; stroke-width: 0.4" />
+      </g>
+     </g>
+     <g id="Fig5_c_text_1">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: middle" x="79.871497" y="88.708875" transform="rotate(-0 79.871497 88.708875)">0.00</text>
+     </g>
+    </g>
+    <g id="Fig5_c_xtick_2">
+     <g id="Fig5_c_line2d_2">
+      <g>
+       <use xlink:href="#Fig5_c_m5a7feb8910" x="117.994422" y="82.204724" style="stroke: #000000; stroke-width: 0.4" />
+      </g>
+     </g>
+     <g id="Fig5_c_text_2">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: middle" x="117.994422" y="88.708875" transform="rotate(-0 117.994422 88.708875)">0.08</text>
+     </g>
+    </g>
+    <g id="Fig5_c_text_3">
+     <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: middle" x="82.204724" y="97.870496" transform="rotate(-0 82.204724 97.870496)">Summed flow</text>
+    </g>
+   </g>
+   <g id="Fig5_c_matplotlib.axis_2">
+    <g id="Fig5_c_ytick_1">
+     <g id="Fig5_c_line2d_3" />
+     <g id="Fig5_c_text_4">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end" x="44.354331" y="22.758997" transform="rotate(-0 44.354331 22.758997)">TIMM9</text>
+     </g>
+    </g>
+    <g id="Fig5_c_ytick_2">
+     <g id="Fig5_c_line2d_4" />
+     <g id="Fig5_c_text_5">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end" x="44.354331" y="33.731819" transform="rotate(-0 44.354331 33.731819)">RGS2</text>
+     </g>
+    </g>
+    <g id="Fig5_c_ytick_3">
+     <g id="Fig5_c_line2d_5" />
+     <g id="Fig5_c_text_6">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end" x="44.354331" y="44.704641" transform="rotate(-0 44.354331 44.704641)">GADD45A</text>
+     </g>
+    </g>
+    <g id="Fig5_c_ytick_4">
+     <g id="Fig5_c_line2d_6" />
+     <g id="Fig5_c_text_7">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end" x="44.354331" y="55.677463" transform="rotate(-0 44.354331 55.677463)">HSPA1A</text>
+     </g>
+    </g>
+    <g id="Fig5_c_ytick_5">
+     <g id="Fig5_c_line2d_7" />
+     <g id="Fig5_c_text_8">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end" x="44.354331" y="66.650284" transform="rotate(-0 44.354331 66.650284)">BRCA1*</text>
+     </g>
+    </g>
+    <g id="Fig5_c_ytick_6">
+     <g id="Fig5_c_line2d_8" />
+     <g id="Fig5_c_text_9">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end" x="44.354331" y="77.623106" transform="rotate(-0 44.354331 77.623106)">CCNB2</text>
+     </g>
+    </g>
+   </g>
+   <g id="Fig5_c_line2d_9">
+    <path d="M 79.871497 82.204724  L 79.871497 14.173228  " clip-path="url(#Fig5_c_p392e5e2a69)" style="fill: none; stroke: #9AA0A6; stroke-width: 0.4; stroke-linecap: square" />
+   </g>
+   <g id="Fig5_c_patch_9">
+    <path d="M 45.354331 82.204724  L 45.354331 14.173228  " style="fill: none; stroke: #000000; stroke-width: 0.4; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="Fig5_c_patch_10">
+    <path d="M 45.354331 82.204724  L 119.055118 82.204724  " style="fill: none; stroke: #000000; stroke-width: 0.4; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="Fig5_c_text_10">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Arial'; text-anchor: middle; fill: #242424" x="82.204724" y="11.173228" transform="rotate(-0 82.204724 11.173228)">Doxorubicin · A549 · 32 h</text>
+   </g>
+  </g>
+  <g id="Fig5_c_axes_2">
+   <g id="Fig5_c_patch_11">
+    <path d="M 146.306748 25.511811  Q 170.07814 25.511811 192.274154 25.511811  " style="fill: none; opacity: 0.8; stroke-dasharray: 4.227184,2.113592; stroke-dashoffset: 0; stroke: #B26D5D; stroke-width: 1.409061; stroke-linecap: round" />
+    <path d="M 190.674154 24.711811  L 192.274154 25.511811  L 190.674154 26.311811  z " style="fill: #C28977; stroke-dasharray: 4.227184,2.113592; stroke-dashoffset: 0; stroke: #B26D5D; stroke-width: 1.409061; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_12">
+    <path d="M 146.206086 26.137772  Q 170.077287 34.015269 191.825054 41.192032  " style="fill: none; opacity: 0.8; stroke-dasharray: 6,3; stroke-dashoffset: 0; stroke: #B26D5D; stroke-width: 2; stroke-linecap: round" />
+    <path d="M 190.55635 39.930925  L 191.825054 41.192032  L 190.054946 41.450331  z " style="fill: #C28977; stroke-dasharray: 6,3; stroke-dashoffset: 0; stroke: #B26D5D; stroke-width: 2; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_13">
+    <path d="M 145.979596 26.61425  Q 170.078414 42.51947 193.15169 57.747832  " style="fill: none; opacity: 0.8; stroke-dasharray: 3.297135,1.648568; stroke-dashoffset: 0; stroke: #B26D5D; stroke-width: 1.099045; stroke-linecap: round" />
+    <path d="M 192.256988 56.198797  L 193.15169 57.747832  L 191.375641 57.534172  z " style="fill: #C28977; stroke-dasharray: 3.297135,1.648568; stroke-dashoffset: 0; stroke: #B26D5D; stroke-width: 1.099045; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_14">
+    <path d="M 145.727941 26.916331  Q 170.076853 51.021753 193.01034 73.725906  " style="fill: none; opacity: 0.8; stroke-dasharray: 5.344371,2.672185; stroke-dashoffset: 0; stroke: #B26D5D; stroke-width: 1.781457; stroke-linecap: round" />
+    <path d="M 192.436134 72.031713  L 193.01034 73.725906  L 191.310462 73.168755  z " style="fill: #C28977; stroke-dasharray: 5.344371,2.672185; stroke-dashoffset: 0; stroke: #B26D5D; stroke-width: 1.781457; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_15">
+    <path d="M 146.099133 50.137622  Q 170.07642 38.268865 193.140848 26.851973  " style="fill: none; opacity: 0.8; stroke-dasharray: 2.733123,1.366562; stroke-dashoffset: 0; stroke: #106898; stroke-width: 0.911041; stroke-linecap: round" />
+    <path d="M 191.352008 26.844804  L 193.140848 26.851973  L 192.061808 28.278743  z " style="fill: #5588A9; stroke-dasharray: 2.733123,1.366562; stroke-dashoffset: 0; stroke: #106898; stroke-width: 0.911041; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_16">
+    <path d="M 146.281583 50.698185  Q 170.077151 46.771916 193.021209 42.986146  " style="fill: none; opacity: 0.8; stroke-dasharray: 2.315735,1.157867; stroke-dashoffset: 0; stroke: #106898; stroke-width: 0.771912; stroke-linecap: round" />
+    <path d="M 191.312315 42.457297  L 193.021209 42.986146  L 191.572793 44.035952  z " style="fill: #5588A9; stroke-dasharray: 2.315735,1.157867; stroke-dashoffset: 0; stroke: #106898; stroke-width: 0.771912; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_17">
+    <path d="M 146.281583 51.34906  Q 170.077151 55.275328 192.43316 58.96407  " style="fill: none; opacity: 0.8; stroke-dasharray: 3.914971,1.957485; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.30499; stroke-linecap: round" />
+    <path d="M 190.984745 57.914264  L 192.43316 58.96407  L 190.724266 59.492919  z " style="fill: #5588A9; stroke-dasharray: 3.914971,1.957485; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.30499; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_18">
+    <path d="M 146.099133 51.909622  Q 170.07642 63.778379 193.16236 75.205919  " style="fill: none; opacity: 0.8; stroke-dasharray: 2.668715,1.334358; stroke-dashoffset: 0; stroke: #106898; stroke-width: 0.889572; stroke-linecap: round" />
+    <path d="M 192.08332 73.779149  L 193.16236 75.205919  L 191.37352 75.213089  z " style="fill: #5588A9; stroke-dasharray: 2.668715,1.334358; stroke-dashoffset: 0; stroke: #106898; stroke-width: 0.889572; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_19">
+    <path d="M 145.727941 75.130913  Q 170.076853 51.025491 193.533747 27.803165  " style="fill: none; opacity: 0.8; stroke-dasharray: 3.368085,1.684042; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.122695; stroke-linecap: round" />
+    <path d="M 191.83387 28.360315  L 193.533747 27.803165  L 192.959541 29.497357  z " style="fill: #5588A9; stroke-dasharray: 3.368085,1.684042; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.122695; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_20">
+    <path d="M 146.206086 75.909472  Q 170.077287 68.031976 193.254237 60.383582  " style="fill: none; opacity: 0.8; stroke-dasharray: 1.961685,0.980842; stroke-dashoffset: 0; stroke: #106898; stroke-width: 0.653895; stroke-linecap: round" />
+    <path d="M 191.484129 60.125283  L 193.254237 60.383582  L 191.985533 61.644689  z " style="fill: #5588A9; stroke-dasharray: 1.961685,0.980842; stroke-dashoffset: 0; stroke: #106898; stroke-width: 0.653895; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_text_11">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end; fill: #242424" x="141.732283" y="26.935151" transform="rotate(-0 141.732283 26.935151)">TIMM9</text>
+   </g>
+   <g id="Fig5_c_text_12">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end; fill: #242424" x="141.732283" y="52.446962" transform="rotate(-0 141.732283 52.446962)">RGS2</text>
+   </g>
+   <g id="Fig5_c_text_13">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end; fill: #242424" x="141.732283" y="77.958773" transform="rotate(-0 141.732283 77.958773)">MMP1</text>
+   </g>
+   <g id="Fig5_c_text_14">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: start; fill: #242424" x="198.425197" y="26.935151" transform="rotate(-0 198.425197 26.935151)">CCNA2</text>
+   </g>
+   <g id="Fig5_c_text_15">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: start; fill: #242424" x="198.425197" y="43.943025" transform="rotate(-0 198.425197 43.943025)">SMAD3</text>
+   </g>
+   <g id="Fig5_c_text_16">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: start; fill: #242424" x="198.425197" y="60.950899" transform="rotate(-0 198.425197 60.950899)">AURKA</text>
+   </g>
+   <g id="Fig5_c_text_17">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: start; fill: #242424" x="198.425197" y="77.958773" transform="rotate(-0 198.425197 77.958773)">AURKB</text>
+   </g>
+   <g id="Fig5_c_text_18">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: middle; fill: #242424" x="170.07874" y="15.007874" transform="rotate(-0 170.07874 15.007874)">G2/M subgraph</text>
+   </g>
+  </g>
+  <g id="Fig5_c_axes_3">
+   <g id="Fig5_c_patch_21">
+    <path d="M 289.133858 82.204724  L 357.165354 82.204724  L 357.165354 14.173228  L 289.133858 14.173228  z " style="fill: #ffffff" />
+   </g>
+   <g id="Fig5_c_patch_22">
+    <path d="M 322.082172 16.916434  L 354.073014 16.916434  L 354.073014 24.597409  L 322.082172 24.597409  z " clip-path="url(#Fig5_c_p8169c614cd)" style="fill: #B26D5D" />
+   </g>
+   <g id="Fig5_c_patch_23">
+    <path d="M 322.082172 27.889256  L 352.006331 27.889256  L 352.006331 35.570231  L 322.082172 35.570231  z " clip-path="url(#Fig5_c_p8169c614cd)" style="fill: #B26D5D" />
+   </g>
+   <g id="Fig5_c_patch_24">
+    <path d="M 322.082172 38.862078  L 292.226199 38.862078  L 292.226199 46.543053  L 322.082172 46.543053  z " clip-path="url(#Fig5_c_p8169c614cd)" style="fill: #106898" />
+   </g>
+   <g id="Fig5_c_patch_25">
+    <path d="M 322.082172 49.8349  L 344.891256 49.8349  L 344.891256 57.515875  L 322.082172 57.515875  z " clip-path="url(#Fig5_c_p8169c614cd)" style="fill: #B26D5D" />
+   </g>
+   <g id="Fig5_c_patch_26">
+    <path d="M 322.082172 60.807722  L 344.226526 60.807722  L 344.226526 68.488697  L 322.082172 68.488697  z " clip-path="url(#Fig5_c_p8169c614cd)" style="fill: #B26D5D" />
+   </g>
+   <g id="Fig5_c_patch_27">
+    <path d="M 322.082172 71.780544  L 342.831509 71.780544  L 342.831509 79.461519  L 322.082172 79.461519  z " clip-path="url(#Fig5_c_p8169c614cd)" style="fill: #B26D5D" />
+   </g>
+   <g id="Fig5_c_matplotlib.axis_3">
+    <g id="Fig5_c_xtick_3">
+     <g id="Fig5_c_line2d_10">
+      <g>
+       <use xlink:href="#Fig5_c_m5a7feb8910" x="292.546104" y="82.204724" style="stroke: #000000; stroke-width: 0.4" />
+      </g>
+     </g>
+     <g id="Fig5_c_text_19">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: middle" x="292.546104" y="88.708875" transform="rotate(-0 292.546104 88.708875)">−0.005</text>
+     </g>
+    </g>
+    <g id="Fig5_c_xtick_4">
+     <g id="Fig5_c_line2d_11">
+      <g>
+       <use xlink:href="#Fig5_c_m5a7feb8910" x="322.082172" y="82.204724" style="stroke: #000000; stroke-width: 0.4" />
+      </g>
+     </g>
+     <g id="Fig5_c_text_20">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: middle" x="322.082172" y="88.708875" transform="rotate(-0 322.082172 88.708875)">0.000</text>
+     </g>
+    </g>
+    <g id="Fig5_c_xtick_5">
+     <g id="Fig5_c_line2d_12">
+      <g>
+       <use xlink:href="#Fig5_c_m5a7feb8910" x="351.618241" y="82.204724" style="stroke: #000000; stroke-width: 0.4" />
+      </g>
+     </g>
+     <g id="Fig5_c_text_21">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: middle" x="351.618241" y="88.708875" transform="rotate(-0 351.618241 88.708875)">0.005</text>
+     </g>
+    </g>
+    <g id="Fig5_c_text_22">
+     <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: middle" x="323.149606" y="97.870496" transform="rotate(-0 323.149606 97.870496)">Flow integral over log time</text>
+    </g>
+   </g>
+   <g id="Fig5_c_matplotlib.axis_4">
+    <g id="Fig5_c_ytick_7">
+     <g id="Fig5_c_line2d_13" />
+     <g id="Fig5_c_text_23">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end" x="288.133858" y="22.758997" transform="rotate(-0 288.133858 22.758997)">MAT2A</text>
+     </g>
+    </g>
+    <g id="Fig5_c_ytick_8">
+     <g id="Fig5_c_line2d_14" />
+     <g id="Fig5_c_text_24">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end" x="288.133858" y="33.731819" transform="rotate(-0 288.133858 33.731819)">CDKN1A</text>
+     </g>
+    </g>
+    <g id="Fig5_c_ytick_9">
+     <g id="Fig5_c_line2d_15" />
+     <g id="Fig5_c_text_25">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end" x="288.133858" y="44.704641" transform="rotate(-0 288.133858 44.704641)">GATA2</text>
+     </g>
+    </g>
+    <g id="Fig5_c_ytick_10">
+     <g id="Fig5_c_line2d_16" />
+     <g id="Fig5_c_text_26">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end" x="288.133858" y="55.677463" transform="rotate(-0 288.133858 55.677463)">TIPARP</text>
+     </g>
+    </g>
+    <g id="Fig5_c_ytick_11">
+     <g id="Fig5_c_line2d_17" />
+     <g id="Fig5_c_text_27">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end" x="288.133858" y="66.650284" transform="rotate(-0 288.133858 66.650284)">TSEN2</text>
+     </g>
+    </g>
+    <g id="Fig5_c_ytick_12">
+     <g id="Fig5_c_line2d_18" />
+     <g id="Fig5_c_text_28">
+      <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end" x="288.133858" y="77.623106" transform="rotate(-0 288.133858 77.623106)">AURKA</text>
+     </g>
+    </g>
+   </g>
+   <g id="Fig5_c_line2d_19">
+    <path d="M 322.082172 82.204724  L 322.082172 14.173228  " clip-path="url(#Fig5_c_p8169c614cd)" style="fill: none; stroke: #9AA0A6; stroke-width: 0.4; stroke-linecap: square" />
+   </g>
+   <g id="Fig5_c_patch_28">
+    <path d="M 289.133858 82.204724  L 289.133858 14.173228  " style="fill: none; stroke: #000000; stroke-width: 0.4; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="Fig5_c_patch_29">
+    <path d="M 289.133858 82.204724  L 357.165354 82.204724  " style="fill: none; stroke: #000000; stroke-width: 0.4; stroke-linejoin: miter; stroke-linecap: square" />
+   </g>
+   <g id="Fig5_c_text_29">
+    <text style="font-weight: 700; font-size: 6px; font-family: 'Arial'; text-anchor: middle; fill: #242424" x="323.149606" y="11.173228" transform="rotate(-0 323.149606 11.173228)">Nutlin-3 · MCF7 · 6–24 h</text>
+   </g>
+  </g>
+  <g id="Fig5_c_axes_4">
+   <g id="Fig5_c_patch_30">
+    <path d="M 384.416984 20.787402  Q 408.188376 20.787402 429.7237 20.787402  " style="fill: none; opacity: 0.8; stroke-dasharray: 6,3; stroke-dashoffset: 0; stroke: #106898; stroke-width: 2; stroke-linecap: round" />
+    <path d="M 428.1237 19.987402  L 429.7237 20.787402  L 428.1237 21.587402  z " style="fill: #5588A9; stroke-dasharray: 6,3; stroke-dashoffset: 0; stroke: #106898; stroke-width: 2; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_31">
+    <path d="M 384.39811 21.077602  Q 408.187633 24.566732 429.884866 27.748993  " style="fill: none; opacity: 0.8; stroke-dasharray: 5.674267,2.837134; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.891422; stroke-linecap: round" />
+    <path d="M 428.417893 26.725278  L 429.884866 27.748993  L 428.185711 28.308342  z " style="fill: #5588A9; stroke-dasharray: 5.674267,2.837134; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.891422; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_32">
+    <path d="M 384.341488 21.351193  Q 408.191503 28.347198 430.028055 34.752587  " style="fill: none; opacity: 0.8; stroke-dasharray: 5.630325,2.815163; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.876775; stroke-linecap: round" />
+    <path d="M 428.717924 33.534574  L 430.028055 34.752587  L 428.267566 35.069884  z " style="fill: #5588A9; stroke-dasharray: 5.630325,2.815163; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.876775; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_33">
+    <path d="M 384.247117 21.591566  Q 408.188006 32.125557 430.239691 41.828299  " style="fill: none; opacity: 0.8; stroke-dasharray: 5.538277,2.769138; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.846092; stroke-linecap: round" />
+    <path d="M 429.097378 40.451665  L 430.239691 41.828299  L 428.452996 41.916169  z " style="fill: #5588A9; stroke-dasharray: 5.538277,2.769138; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.846092; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_34">
+    <path d="M 384.03321 80.076433  Q 408.189863 62.361555 430.732845 45.830034  " style="fill: none; opacity: 0.8; stroke-dasharray: 5.369425,2.684712; stroke-dashoffset: 0; stroke: #B26D5D; stroke-width: 1.789808; stroke-linecap: round" />
+    <path d="M 428.969506 46.131092  L 430.732845 45.830034  L 429.915688 47.42134  z " style="fill: #C28977; stroke-dasharray: 5.369425,2.684712; stroke-dashoffset: 0; stroke: #B26D5D; stroke-width: 1.789808; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_35">
+    <path d="M 384.146455 80.246678  Q 408.190548 66.14081 430.530761 53.034552  " style="fill: none; opacity: 0.8; stroke-dasharray: 5.300705,2.650353; stroke-dashoffset: 0; stroke: #B26D5D; stroke-width: 1.766902; stroke-linecap: round" />
+    <path d="M 428.745909 53.154156  L 430.530761 53.034552  L 429.555533 54.534195  z " style="fill: #C28977; stroke-dasharray: 5.300705,2.650353; stroke-dashoffset: 0; stroke: #B26D5D; stroke-width: 1.766902; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_36">
+    <path d="M 384.03321 21.970811  Q 408.189863 39.685689 430.776556 56.249264  " style="fill: none; opacity: 0.8; stroke: #106898; stroke-width: 1.741327; stroke-linecap: round" />
+    <path d="M 429.959399 54.657958  L 430.776556 56.249264  L 429.013217 55.948206  z " style="fill: #5588A9; stroke: #106898; stroke-width: 1.741327; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_37">
+    <path d="M 383.919965 22.107837  Q 408.18944 43.464975 431.04138 63.574682  " style="fill: none; opacity: 0.8; stroke-dasharray: 5.066707,2.533353; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.688902; stroke-linecap: round" />
+    <path d="M 430.368741 61.917107  L 431.04138 63.574682  L 429.311736 63.118248  z " style="fill: #5588A9; stroke-dasharray: 5.066707,2.533353; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.688902; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_38">
+    <path d="M 383.813012 22.218104  Q 408.189452 47.244583 431.279947 70.950825  " style="fill: none; opacity: 0.8; stroke-dasharray: 4.945312,2.472656; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.648437; stroke-linecap: round" />
+    <path d="M 430.736639 69.246473  L 431.279947 70.950825  L 429.590481 70.36286  z " style="fill: #5588A9; stroke-dasharray: 4.945312,2.472656; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.648437; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_patch_39">
+    <path d="M 383.718641 22.311762  Q 408.190019 51.024845 431.516181 78.394209  " style="fill: none; opacity: 0.8; stroke-dasharray: 4.737418,2.368709; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.579139; stroke-linecap: round" />
+    <path d="M 431.087206 76.657551  L 431.516181 78.394209  L 429.86947 77.695394  z " style="fill: #5588A9; stroke-dasharray: 4.737418,2.368709; stroke-dashoffset: 0; stroke: #106898; stroke-width: 1.579139; stroke-linecap: round; fill-opacity: 1" />
+   </g>
+   <g id="Fig5_c_text_30">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end; fill: #242424" x="379.84252" y="22.210741" transform="rotate(-0 379.84252 22.210741)">GATA2</text>
+   </g>
+   <g id="Fig5_c_text_31">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: end; fill: #242424" x="379.84252" y="82.683182" transform="rotate(-0 379.84252 82.683182)">MAT2A</text>
+   </g>
+   <g id="Fig5_c_text_32">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: start; fill: #242424" x="436.535433" y="22.212299" transform="rotate(-0 436.535433 22.212299)">HMOX1</text>
+   </g>
+   <g id="Fig5_c_text_33">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: start; fill: #242424" x="436.535433" y="29.769797" transform="rotate(-0 436.535433 29.769797)">FAS</text>
+   </g>
+   <g id="Fig5_c_text_34">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: start; fill: #242424" x="436.535433" y="37.328852" transform="rotate(-0 436.535433 37.328852)">RALGDS</text>
+   </g>
+   <g id="Fig5_c_text_35">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: start; fill: #242424" x="436.535433" y="44.887907" transform="rotate(-0 436.535433 44.887907)">CGRRF1</text>
+   </g>
+   <g id="Fig5_c_text_36">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: start; fill: #242424" x="436.535433" y="52.446962" transform="rotate(-0 436.535433 52.446962)">GADD45A</text>
+   </g>
+   <g id="Fig5_c_text_37">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: start; fill: #242424" x="436.535433" y="60.006017" transform="rotate(-0 436.535433 60.006017)">CDKN1A</text>
+   </g>
+   <g id="Fig5_c_text_38">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: start; fill: #242424" x="436.535433" y="67.565072" transform="rotate(-0 436.535433 67.565072)">SESN1</text>
+   </g>
+   <g id="Fig5_c_text_39">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: start; fill: #242424" x="436.535433" y="75.124127" transform="rotate(-0 436.535433 75.124127)">DDB2</text>
+   </g>
+   <g id="Fig5_c_text_40">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: start; fill: #242424" x="436.535433" y="82.683182" transform="rotate(-0 436.535433 82.683182)">BLCAP</text>
+   </g>
+   <g id="Fig5_c_text_41">
+    <text style="font-size: 5.5px; font-family: 'Arial'; text-anchor: middle; fill: #242424" x="408.188976" y="15.007874" transform="rotate(-0 408.188976 15.007874)">p53 subgraph</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="Fig5_c_p392e5e2a69">
+   <rect x="45.354331" y="14.173228" width="73.700787" height="68.031496" />
+  </clipPath>
+  <clipPath id="Fig5_c_p8169c614cd">
+   <rect x="289.133858" y="14.173228" width="68.031496" height="68.031496" />
+  </clipPath>
+ </defs>
+</g></svg>

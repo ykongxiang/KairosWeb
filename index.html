@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="description" content="Kairos: a perturbation-conditioned model of cell-state dynamics that forecasts unseen perturbations at unseen time points."><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website"><meta property="og:title" content="Kairos · Perturbation-specific cell dynamics"><meta property="og:description" content="Kairos: a perturbation-conditioned model of cell-state dynamics that forecasts unseen perturbations at unseen time points."><title>Kairos · Perturbation-specific cell dynamics</title><link rel="stylesheet" href="styles.css"><script src="assets/cases.js" defer></script><script src="assets/landscape.js" defer></script><script src="i18n.js" defer></script><script src="app.js" defer></script></head>
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+<header class="sidebar">
+  <a class="wordmark" href="#overview" aria-label="Kairos home">kairos<span class="brand-dot">.</span></a>
+  <p class="brand-caption" data-i18n="brandCaption">Cell dynamics under perturbation</p>
+  <nav class="chapter-nav" aria-label="Reading navigation">
+    <a href="#overview" data-nav="overview" aria-current="location"><span class="nav-marker"></span><span data-i18n="navOverview">Overview</span></a>
+    <a href="#motivation" data-nav="motivation"><span class="nav-marker"></span><span data-i18n="navMotivation">Why time matters</span></a>
+    <a href="#perspectives" data-nav="perspectives"><span class="nav-marker"></span><span data-i18n="navMethod">How Kairos works</span></a>
+    <a href="#results" data-nav="results"><span class="nav-marker"></span><span data-i18n="navResults">The evidence</span></a>
+    <a href="#examples" data-nav="examples"><span class="nav-marker"></span><span data-i18n="navCases">Explore trajectories</span></a>
+  </nav>
+  <div class="sidebar-bottom">
+    <a class="resource-link" href="#source" data-nav="source"><span data-i18n="navResources">Code & preprint</span><span class="soon" data-i18n="navSoon">Soon</span></a>
+    <div class="lang-switch" role="group" aria-label="Language switch"><button type="button" data-lang="en" aria-pressed="true">EN</button><button type="button" data-lang="zh" aria-pressed="false">中文</button></div>
+    <span class="preview-status" data-i18n="previewStatus">Research preview · unreleased</span>
+  </div>
+</header>
+<main id="main" tabindex="-1">
+<section id="overview" class="hero wrap" data-chapter="overview" aria-labelledby="hero-title">
+  <div class="hero-copy">
+    <p class="eyebrow" data-i18n="heroTag">CELL DYNAMICS, CONDITIONED.</p>
+    <h1 id="hero-title" data-i18n-html="heroTitle">After a perturbation,<br><em>where do cells go?</em></h1>
+    <p class="lead" data-i18n-html="heroLead">A drug or gene knockout changes how cells evolve. Kairos learns from gene-expression snapshots to forecast cell populations at unmeasured times.</p>
+    <p class="hero-thesis" data-i18n-html="heroThesis">The key idea: each perturbation defines its own vector field and Waddington landscape.</p>
+    <a class="button hero-cta" href="#examples"><span data-i18n="heroCta">Watch a population change</span><span aria-hidden="true"> →</span></a>
+  </div>
+  <div class="landscape-explorer">
+    <div class="visual-title"><span data-i18n="landscapeTitle">One starting point. Different paths.</span><span class="schematic" data-i18n="schematicBadge">Conceptual view</span></div>
+    <div class="condition-switch" role="group" aria-label="Select perturbation condition"><button data-condition="0" aria-pressed="true" data-i18n="cond0">Control · p = 0</button><button data-condition="1" aria-pressed="false" data-i18n="cond1">Perturbation A</button><button data-condition="2" aria-pressed="false" data-i18n="cond2">Perturbation B</button></div>
+    <canvas id="landscape" role="img" aria-label="Perturbation-conditioned Waddington landscape"></canvas>
+    <div class="hero-video" role="group" aria-label="Path playback" data-i18n-label="heroGroup"><button type="button" id="hero-play" class="video-btn" aria-label="Pause">❚❚</button><input id="hero-scrub" type="range" min="0" max="1000" step="1" value="0" aria-label="Position along the path" data-i18n-label="heroScrub"><output id="hero-time" aria-hidden="true">0%</output></div>
+    <div class="landscape-bottom"><span id="condition-description">Shared origin branching on the baseline landscape.</span></div>
+    <p class="visual-note" data-i18n="landscapeNote">Switch conditions to see the landscape change. Conceptual illustration, not a fitted scalar potential.</p>
+  </div>
+  <div class="hero-pipeline" aria-label="Kairos at a glance">
+    <div><span data-i18n="glanceInput">Input</span><strong data-i18n="glanceInputVal">Gene-expression snapshots</strong></div>
+    <div><span data-i18n="glanceLearn">Learn</span><strong data-i18n="glanceLearnVal">A field for each perturbation</strong></div>
+    <div><span data-i18n="glanceOutput">Forecast</span><strong data-i18n="glanceOutputVal">Populations at unmeasured times</strong></div>
+  </div>
+</section>
+
+<div class="chapter-shell" data-chapter-group="motivation">
+<section id="motivation" class="motivation wrap section" data-chapter="motivation" aria-labelledby="motivation-title">
+  <div class="section-heading">
+    <p class="eyebrow" data-i18n="motTag">WHY TIME MATTERS</p>
+    <h2 id="motivation-title" data-i18n-html="motTitle">Cells keep changing.<br>Even without treatment.</h2>
+    <p class="section-deck" data-i18n="motLead">A drug’s effect is the difference between treated and untreated cells at the same time. To forecast that effect, we need to know how both populations evolve.</p>
+  </div>
+  <div class="evidence-grid">
+    <article class="evidence-panel"><div class="evidence-argument">
+      <div class="ev-head"><h3 data-i18n="ev1Title">The untreated baseline moves.</h3></div>
+      
+      
+    <p class="ev-copy" data-i18n="ev1Body">Control drift is reproducible in L1000. In Parse-Epi, the same control changes differently across cell lineages. An earlier control cannot stand in for the target-time control.</p></div>
+      <div class="fig-duo fig-duo-drift">
+        <figure class="fig-plate">
+          <img loading="lazy" decoding="async" src="assets/fig1-drift.svg" alt="Fig. 1c L1000 control drift and cross-project transfer">
+        </figure>
+        <figure class="fig-plate">
+          <img loading="lazy" decoding="async" src="assets/fig1-lineage-drift.svg" alt="Fig. 1j Parse-Epi DMSO control programmes in A549-like and THP-1-like lineages">
+        </figure>
+      </div><details class="technical-note"><summary data-i18n="evidenceDetails">View the quantitative evidence</summary><div class="ev-metrics">
+        <div><strong class="metric-val">0.318–0.500</strong><span data-i18n="ev1M1">L1000 6→24 h noise-corrected drift energy (MCF7, A549, VCaP)</span></div>
+        <div><strong class="metric-val">19 + 12</strong><span data-i18n="ev1M2">Hallmark & PROGENy programmes drifting in ≥2 lines</span></div>
+      </div></details></article>
+
+    <article class="evidence-panel"><div class="evidence-argument">
+      <div class="ev-head"><h3 data-i18n="ev2Title">Each perturbation adds its own change.</h3></div>
+      
+      
+    <p class="ev-copy" data-i18n="ev2Body">Response changes are reproducible within a compound and differ between compounds. Their magnitude is 1.9–4.0 times that of control drift in Parse-Epi.</p></div>
+      <div class="fig-duo">
+        <figure class="fig-plate">
+          <img loading="lazy" decoding="async" src="assets/fig1-repeat.svg" alt="Fig. 1g Parse-Epi split-well repeatability">
+        </figure>
+        <figure class="fig-plate">
+          <img loading="lazy" decoding="async" src="assets/fig1-scales.svg" alt="Fig. 1h Parse-Epi response-change versus DMSO drift scales">
+        </figure>
+      </div><details class="technical-note"><summary data-i18n="evidenceDetails">View the quantitative evidence</summary><div class="ev-metrics">
+        <div><strong class="metric-val">0.800–0.829</strong><span data-i18n="ev2M1">Parse-Epi split-half response-change correlation (vs ~0.10 different drugs)</span></div>
+        <div><strong class="metric-val">1.9–4.0×</strong><span data-i18n="ev2M2">Response-change energy relative to control drift</span></div>
+      </div></details></article>
+  </div>
+  <p class="takeaway-line" data-i18n-html="motTakeaway"><strong>The task:</strong> forecast both populations at the target time, then compare them.</p>
+</section>
+
+</div>
+
+<div class="chapter-shell" data-chapter-group="perspectives">
+<section id="perspectives" class="perspectives section" data-chapter="perspectives" aria-labelledby="perspectives-title"><div class="wrap">
+  <div class="section-heading">
+    <p class="eyebrow" data-i18n="methodTag">HOW KAIROS WORKS</p>
+    <h2 id="perspectives-title" data-i18n-html="perspTitle">Learn how cells change.<br>Condition it on the perturbation.</h2>
+    <p class="section-deck" data-i18n="perspDeck">Kairos connects perturbation prediction with cell dynamics: the perturbation determines the dynamics used to forecast the population.</p>
+  </div>
+  <div class="paradigm-grid">
+    <article class="paradigm-card">
+      <div class="paradigm-head">
+        <span class="comparison-label" data-i18n="cardStaticLabel">Static Perturbation Prediction</span>
+        <h3 data-i18n="cardStaticTitle">Predict a response</h3>
+      </div>
+      <div class="paradigm-stage"><canvas id="paradigm-static" role="img" aria-label="Static perturbation prediction diagram"></canvas></div>
+      <div class="paradigm-foot"><div class="mini-formula" aria-label="control at target time and perturbation map to predicted perturbed population">(<var>x</var><sub>ctrl</sub>(<var>t</var><sup>*</sup>), <var>p</var>) ↦ <var>x̂</var><sub><var>p</var></sub>(<var>t</var><sup>*</sup>)</div><p data-i18n="cardStaticDesc">Map a target-time control to the perturbed state. Time is usually a condition covariate.</p><p class="formula-where" data-i18n-html="cardStaticWhere"></p></div>
+    </article>
+    <article class="paradigm-card">
+      <div class="paradigm-head">
+        <span class="comparison-label" data-i18n="cardDynLabel">Cell Dynamics</span>
+        <h3 data-i18n="cardDynTitle">Learn change over time</h3>
+      </div>
+      <div class="paradigm-stage"><canvas id="paradigm-dynamics" role="img" aria-label="Cell dynamics diagram"></canvas></div>
+      <div class="paradigm-foot"><div class="mini-formula" aria-label="starting population maps to populations over time">(<var>x</var>(<var>t</var><sub>0</sub>)) ↦ {<var>x</var>(<var>t</var>)}</div><p data-i18n="cardDynDesc">Learn population dynamics from snapshots of a measured series.</p><p class="formula-where" data-i18n-html="cardDynWhere"></p></div>
+    </article>
+    <article class="paradigm-card paradigm-kairos">
+      <div class="paradigm-head">
+        <span class="comparison-label" data-i18n="cardKairosLabel">Kairos · Conditioned Dynamics</span>
+        <h3 data-i18n="cardKairosTitle">Condition the dynamics</h3>
+      </div>
+      <div class="paradigm-stage"><canvas id="paradigm-kairos" role="img" aria-label="Kairos perturbation-conditioned dynamics diagram"></canvas></div>
+      <div class="paradigm-foot"><div class="mini-formula" aria-label="starting population and perturbation give a vector field, which gives populations over time">(<var>x</var>(<var>t</var><sub>0</sub>), <var>p</var>) ↦ <var>f</var><sub>θ</sub>(·, <var>p</var>) ↦ {<var>x</var><sub><var>p</var></sub>(<var>t</var>)}</div><p data-i18n="cardKairosDesc">Learn fθ(x, p) for each perturbation, including fθ(x, 0) for control. Integrate to predict both populations.</p><p class="formula-where" data-i18n-html="cardKairosWhere"></p></div>
+    </article>
+  </div>
+</div></section>
+
+<section id="dynamics" class="dynamics wrap subsection" aria-labelledby="dynamics-title">
+  <div class="section-heading">
+    <p class="eyebrow" data-i18n="fieldTag">THE LOCAL VIEW</p>
+    <h3 id="dynamics-title" data-i18n-html="dynTitle">A field gives the next change.</h3>
+    <p class="section-deck" data-i18n="dynDeck">At each cell state, the vector field gives a direction and rate of change. Integrating those updates generates a trajectory.</p>
+  </div>
+  <div class="scrolly">
+    <div class="scrolly-stage">
+      <div class="field-panel">
+        <div class="visual-title"><span data-i18n="fieldTitle">State-dependent · perturbation-conditioned</span><span class="schematic" data-i18n="schematicBadge">Conceptual view</span></div>
+        <canvas id="vector-field" role="img" aria-label="State-dependent perturbation-conditioned 2D vector field"></canvas>
+        <p class="field-caption" id="field-caption" aria-live="polite"></p>
+        <div class="field-footer"><span><i class="legend-line"></i><span data-i18n="legendDir">Local direction</span></span><span><i class="legend-dot"></i><span data-i18n="legendPop">Cell population</span></span><span id="field-condition">Unperturbed</span></div>
+      </div>
+    </div>
+    <div class="scrolly-steps">
+      <article class="step is-active" data-step="0"><span class="feature-label" data-i18n="dynArt1Label">State-dependent rates</span><h4 data-i18n="dynArt1Title">Different states. Different rates.</h4><p data-i18n-html="dynArt1Body">The rate depends on the current state <em>x</em> and perturbation <em>p</em>. Model parameters are shared through directed gene interactions.</p><div class="equation" role="math" aria-label="d x over d tau equals f theta of x and p">d<var>x</var> / d<var>τ</var> = <var>f</var><sub>θ</sub>(<var>x</var>, <var>p</var>)</div><dl class="symbols"><div><dt><var>x</var></dt><dd data-i18n="symX"></dd></div><div><dt><var>p</var></dt><dd data-i18n="symP"></dd></div><div><dt><var>f</var><sub>θ</sub></dt><dd data-i18n="symF"></dd></div><div><dt><var>τ</var></dt><dd data-i18n="symTau"></dd></div><div><dt>θ</dt><dd data-i18n="symTheta"></dd></div></dl></article>
+      <article class="step" data-step="1"><span class="feature-label" data-i18n="dynArt2Label">Population integration</span><h4 data-i18n="dynArt2Title">Integrate each starting state independently.</h4><p data-i18n="dynArt2Body">Each starting cell state is integrated independently. Together, the evolved states form the predicted population. Training snapshots are unpaired; measured cells are not tracked across time.</p></article>
+      <article class="step" data-step="2" id="conditional-landscape"><span class="feature-label" data-i18n="globalTag">THE GLOBAL VIEW</span><h4 data-i18n="landTitleShort">Each perturbation reshapes the landscape.</h4><p data-i18n="landSummary">Changing the perturbation changes the field and the routes cells follow. The opening Waddington landscape makes this global idea visible.</p>
+        <details class="technical-note"><summary data-i18n="landDetails">How to read the landscape</summary>
+        <p data-i18n-html="landP1">A Waddington landscape makes the global idea visible: valleys indicate accessible state channels, and ridges separate routes. In the opening illustration, control follows the middle route. Under A, the middle valley becomes a ridge and the trajectory goes left. Under B, the trajectory takes the right route.</p>
+        <p data-i18n-html="landP2">A perturbation changes the field itself, δfₚ(x) = fθ(x, p) − fθ(x, 0), and therefore changes the routes cells follow. “Landscape” describes these dynamics in general; the model does not require the field to be the gradient of a scalar potential.</p>
+      </details></article>
+    </div>
+  </div>
+  <ol class="concept-flow" aria-label="Conceptual prediction workflow"><li><span data-i18n="flow1Label">Starting state</span><strong data-i18n="flow1Val">Initial population x(t₀)</strong></li><li><span data-i18n="flow2Label">Condition</span><strong data-i18n="flow2Val">Perturbation p (or p = 0)</strong></li><li><span data-i18n="flow3Label">Local updates</span><strong data-i18n-html="flow3Val">Integrate f<sub>θ</sub>(x, p)</strong></li><li><span data-i18n="flow4Label">Query time</span><strong data-i18n="flow4Val">Population at unseen t</strong></li></ol>
+</section>
+
+<section id="architecture" class="architecture wrap subsection" aria-labelledby="architecture-title">
+  <div class="section-heading"><p class="eyebrow" data-i18n="archTag">FROM THE IDEA TO THE MODEL</p><h3 id="architecture-title" data-i18n-html="archSectionTitle">From gene interactions<br>to population forecasts.</h3><p class="section-deck" data-i18n="archSectionLead">Directed gene interactions compute each gene’s rate of change. The model integrates those rates to predict a population.</p></div>
+  <div class="architecture-panels">
+    <article class="architecture-panel"><div class="architecture-caption"><span class="feature-label" data-i18n="archAKey">Prediction framework</span><h4 data-i18n="archATitle">Start with a population. Forecast its evolution.</h4><p data-i18n="archASummary">Each condition has a starting population and its own field. Integration produces treated and untreated populations at the query time.</p><details class="technical-note"><summary data-i18n="architectureDetails">Model details</summary><p data-i18n="archABody">Measured perturbations start from their own visible observations; simulated knockouts start from a shared unperturbed population at time zero. Unmeasured compounds start from visible controls plus responses retrieved from chemically related training compounds. The model integrates the field for each condition to the target time.</p></details></div>
+      <button type="button" class="fig-plate architecture-plate" data-lightbox-src="assets/fig2-landscapes.svg" data-lightbox-key="capFig2a" aria-label="Enlarge complete prediction framework"><img loading="lazy" decoding="async" src="assets/fig2-landscapes.svg" alt="Complete Fig. 2a: source initialization, untreated and perturbation-conditioned landscapes, rollout, and response readout"><span class="fig-zoom" aria-hidden="true">+</span></button>
+    </article>
+    <div class="architecture-connector" aria-hidden="true"><svg viewBox="0 0 44 24" fill="none"><path d="M2 12H39M30 4L39 12L30 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <article class="architecture-panel"><div class="architecture-caption"><span class="feature-label" data-i18n="archBKey">Vector-field parameterization</span><h4 data-i18n="archBTitle">Gene interactions generate the rates.</h4><p data-i18n="archBSummary">Gene-specific inputs pass through a signed, directed interaction matrix. A shared receiver produces each gene’s rate of change.</p><details class="technical-note"><summary data-i18n="architectureDetails">Model details</summary><p data-i18n="archBBody">Gene-specific expression encoders, gene identities and perturbation inputs form the messages. A signed, directed interaction matrix W routes messages between genes, and a receiver shared across genes outputs each gene’s rate. The ODE solver integrates these rates to update the cell state.</p></details></div>
+      <button type="button" class="fig-plate architecture-plate" data-lightbox-src="assets/fig2-operator.svg" data-lightbox-key="capFig2b" aria-label="Enlarge complete gene-interaction operator"><img loading="lazy" decoding="async" src="assets/fig2-operator.svg" alt="Complete Fig. 2b: inputs, signed gene-interaction matrix, shared receiver, rate and ODE step"><span class="fig-zoom" aria-hidden="true">+</span></button>
+    </article>
+  </div>
+  <p class="takeaway-line" data-i18n-html="archTakeaway"><strong>What is shared?</strong> Model parameters and directed gene interactions. Each perturbation defines its own vector field and landscape.</p>
+</section>
+
+</div>
+
+<div class="chapter-shell" data-chapter-group="results">
+<section id="results" class="results-section wrap section" data-chapter="results" aria-labelledby="results-title">
+  <div class="section-heading results-heading">
+    <div>
+      <p class="eyebrow" data-i18n="resEyebrow">EVIDENCE ACROSS TASKS</p>
+      <h2 id="results-title" data-i18n-html="resTitle">Do the forecasts agree<br>with held-out data?</h2>
+    </div>
+    <p data-i18n="resDeck">Evaluate two things: the mean perturbation response and the full population distribution.</p>
+  </div>
+
+  <div class="evaluation-brief" id="evaluation"><h3 data-i18n="evalTaskTitle">Time hold-out and double hold-out</h3><p data-i18n="evalTaskBody">Time hold-out withholds a sampling time for a measured perturbation. Double hold-out withholds both the perturbation and the target time.</p><details class="technical-note"><summary data-i18n="evalInputTitle">Forward-looking and response readouts</summary><p data-i18n="evalInputBody">The forward-looking readout predicts absolute treated states using visible times alone. The response readout additionally replaces the predicted control mean with the measured target-time control mean. The default simulation display uses the forward-looking readout; the alternative is available in the notes.</p></details></div>
+  <div class="results-stack">
+    <article class="result-feature">
+      <div class="result-meta">
+        <span class="ev-num" data-i18n="resultsBenchmark">POPULATION BENCHMARKS</span>
+        <h3 data-i18n="res1Title">Unseen perturbation. Unseen time.</h3>
+        <p data-i18n="res1Desc">On Parse-Epi and dyngen-KO double hold-outs, Kairos leads mean-response and population-distribution metrics under both readouts.</p>
+      </div>
+      <figure class="fig-plate result-plate">
+        <img loading="lazy" decoding="async" src="assets/fig4-benchmarks.svg" alt="Fig. 4b–c Single-cell double hold-out benchmark performance in Parse-Epi and dyngen-KO">
+      </figure>
+    </article>
+
+    <article class="result-feature">
+      <div class="result-meta">
+        <span class="ev-num">PARSE-EPI</span>
+        <h3 data-i18n="res2Title">Where do treated cells end up?</h3>
+        <p data-i18n="res2Desc">For TC-H-106, predicted A549 and THP-1 populations occupy the measured treated regions, beyond the untreated controls.</p>
+      </div>
+      <figure class="fig-plate result-plate">
+        <img loading="lazy" decoding="async" src="assets/fig4-lineage.svg" alt="Fig. 4d Lineage distributions of TC-H-106 at held-out 32 h">
+      </figure>
+      <p class="figure-note" data-i18n="res2Note">One held-out compound is shown as an example, not as a summary statistic.</p>
+    </article>
+
+    <article class="result-feature">
+      <div class="result-meta">
+        <span class="ev-num" data-i18n="resultsFlow">INTERACTION FLOW</span>
+        <h3 data-i18n="res3Title">Trace predictions through gene interactions.</h3>
+        <p data-i18n="res3Desc">Interaction flow attributes predicted programme changes to directed gene interactions. These model attributions suggest hypotheses for experimental follow-up.</p>
+      </div>
+      <figure class="fig-plate result-plate">
+        <img loading="lazy" decoding="async" src="assets/fig5-flow.svg" alt="Fig. 5c Model interaction flow for held-out doxorubicin and nutlin-3">
+      </figure>
+    </article>
+  </div>
+</section>
+
+</div>
+
+<div class="chapter-shell" data-chapter-group="examples">
+<section id="examples" class="examples-band section" data-chapter="examples"><div class="wrap">
+<div class="section-heading examples-heading"><div><p class="eyebrow" data-i18n="explorerTag">EXPLORE THE FORECASTS</p><h2 data-i18n-html="exTitle">Watch a population<br>change through time.</h2></div><p data-i18n-html="exSubtitle">Three simulated double hold-outs.<br>Three Parse-Epi time hold-outs at 32 h.</p></div>
+  <div class="dataset-tabs" role="tablist" aria-label="Select evaluation scenario"><button id="tab-dyngen" role="tab" aria-selected="true" aria-controls="case-content" data-dataset="dyngen" data-i18n-html="tabDouble">dyngen-KO <span>Double hold-out</span></button><button id="tab-epi" role="tab" aria-selected="false" aria-controls="case-content" data-dataset="epi" tabindex="-1" data-i18n-html="tabTime">Parse-Epi <span>Time hold-out · 32 h</span></button></div>
+  <div id="case-content" role="tabpanel" aria-labelledby="tab-dyngen">
+    <div class="case-intro"><p id="dataset-description"></p><span class="readout-badge" id="readout-badge"></span></div>
+    <div class="case-options"><span class="plot-legend"><i class="legend-dot"></i><span id="prediction-legend">Predicted population</span></span><label><input id="show-reference" type="checkbox" checked><i class="legend-ring"></i><span id="reference-label">Simulated truth</span></label></div>
+    <div class="case-grid" id="case-grid"></div>
+    <div class="time-control"><button id="case-play" class="button" aria-label="Play trajectory">Play</button><div class="time-track"><input id="case-time" type="range" aria-label="Trajectory time" min="0" max="96" step="0.1" value="48"><div class="time-bands" id="case-bands" aria-hidden="true"></div><div class="time-ticks" id="case-ticks"></div><div class="band-legend" id="band-legend"></div><p id="time-status" aria-live="off"></p></div><output id="case-clock">48.0<span>sim. time</span></output></div>
+    <p class="case-disclosure" id="case-disclosure"></p>
+    <details class="case-details"><summary data-i18n="detailsSummary">Readouts, visualization and metrics</summary><div class="readout-setting"><label id="readout-control"><span data-i18n="readoutLabel">Readout</span><select id="readout" aria-label="Readout mode"><option value="A" data-i18n="readoutOptA">Forward-looking readout</option><option value="B" data-i18n="readoutOptB">Response readout (same-time control)</option></select></label></div><div id="case-details-content"></div></details>
+  </div>
+</div></section>
+
+</div>
+
+<div class="chapter-shell" data-chapter-group="source">
+<section id="source" class="source-section section" data-chapter="source" aria-labelledby="source-title"><div class="wrap">
+  <div class="section-heading source-heading"><div><p class="eyebrow" data-i18n="sourceTag">RESOURCES</p><h2 id="source-title" data-i18n="sourceTitle">Continue with the code and paper.</h2></div><p data-i18n="sourceDeck">The code and manuscript links will be added when the work is released.</p></div>
+  <div class="source-grid">
+    <!-- Replace href with final GitHub repository URL -->
+    <article class="source-card"><div class="source-card-top"><span class="source-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.16c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.62 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.39-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></span><span class="source-kicker">GitHub</span></div><h3 data-i18n="githubTitle">GitHub Repository</h3><p data-i18n="githubDesc">Kairos model implementation, hold-out splits, and benchmark evaluation scripts.</p><span class="source-status" data-i18n="sourcePending">Coming soon</span></article>
+    <!-- Replace href with final bioRxiv preprint URL -->
+    <article class="source-card"><div class="source-card-top"><span class="source-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h9l5 5v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1z"/><path d="M14 3v6h6"/><path d="M9 13h6"/><path d="M9 17h4"/></svg></span><span class="source-kicker">bioRxiv</span></div><h3 data-i18n="biorxivTitle">bioRxiv Preprint</h3><p data-i18n="biorxivDesc">Full manuscript detailing perturbation-conditioned dynamics, benchmarks, and analyses.</p><span class="source-status" data-i18n="sourcePendingPaper">Coming soon</span></article>
+  </div>
+</div></section>
+</div>
+</main>
+<footer class="page-footer"><span>Kairos</span><span data-i18n="footerNote">Kairos · Perturbation-conditioned cell dynamics.</span><a href="#overview" data-i18n="backToTop">Back to top</a></footer>
+<dialog id="fig-lightbox" aria-label="Figure viewer"><div class="lb-head"><span id="lb-caption"></span><button type="button" id="lb-close" data-i18n="lbClose">Close ×</button></div><div class="lb-body"><img id="lb-img" alt=""></div></dialog>
+</body></html>
